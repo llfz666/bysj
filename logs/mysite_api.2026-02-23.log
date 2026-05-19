@@ -1,0 +1,341 @@
+INFO 2026-02-23 16:23:41,333 middleware_log __call__ 64c901c9b2844d60acd2f5be04dd5f50	GET	/	{}	{}	200	OK
+INFO 2026-02-23 16:23:45,667 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/	{}	{}	200	OK
+INFO 2026-02-23 16:23:47,302 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26577050']}	{}	200	OK
+INFO 2026-02-23 16:23:49,480 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26791681']}	{}	200	OK
+INFO 2026-02-23 16:23:50,904 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['25873396']}	{}	200	OK
+INFO 2026-02-23 16:23:55,109 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['30466847']}	{}	200	OK
+INFO 2026-02-23 16:23:56,354 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['1296141']}	{}	200	OK
+INFO 2026-02-23 16:23:58,411 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['30309318']}	{}	200	OK
+INFO 2026-02-23 16:24:19,614 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/search.html	{'type': ['tag'], 's': ['恐怖']}	{}	200	OK
+INFO 2026-02-23 16:24:22,964 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/search.html	{'type': ['tag'], 's': ['动画']}	{}	200	OK
+INFO 2026-02-23 16:24:29,882 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/search.html	{'type': ['tag'], 's': ['爱情']}	{}	200	OK
+INFO 2026-02-23 16:24:31,669 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['34464477']}	{}	200	OK
+INFO 2026-02-23 16:24:32,472 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['30309158']}	{}	200	OK
+INFO 2026-02-23 16:24:33,624 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26580108']}	{}	200	OK
+INFO 2026-02-23 16:24:34,863 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['30271236']}	{}	200	OK
+INFO 2026-02-23 16:24:36,363 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/search.html	{'type': ['tag'], 's': ['爱情'], 'limit': ['20'], 'page': ['3']}	{}	200	OK
+INFO 2026-02-23 16:24:37,536 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['32579297']}	{}	200	OK
+INFO 2026-02-23 16:24:38,561 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['27044419']}	{}	200	OK
+INFO 2026-02-23 16:24:39,747 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26776334']}	{}	200	OK
+INFO 2026-02-23 16:24:40,822 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['34452918']}	{}	200	OK
+INFO 2026-02-23 16:24:51,007 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/search.html	{'type': ['tag'], 's': ['警匪']}	{}	200	OK
+INFO 2026-02-23 16:24:53,792 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['30304210']}	{}	200	OK
+INFO 2026-02-23 16:24:54,326 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['11599093']}	{}	200	OK
+INFO 2026-02-23 16:24:55,117 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26235346']}	{}	200	OK
+INFO 2026-02-23 16:24:55,825 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['27089150']}	{}	200	OK
+INFO 2026-02-23 16:24:56,379 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['33458728']}	{}	200	OK
+INFO 2026-02-23 16:24:57,255 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['30175306']}	{}	200	OK
+INFO 2026-02-23 16:24:58,862 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['33379586']}	{}	200	OK
+INFO 2026-02-23 16:25:00,698 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['27187912']}	{}	200	OK
+INFO 2026-02-23 16:25:02,563 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['30254294']}	{}	200	OK
+INFO 2026-02-23 16:25:04,209 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['2']}	{}	200	OK
+INFO 2026-02-23 16:25:05,576 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['30173633']}	{}	200	OK
+INFO 2026-02-23 16:25:06,761 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['30308908']}	{}	200	OK
+INFO 2026-02-23 16:26:34,389 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['25789365']}	{}	200	OK
+INFO 2026-02-23 16:26:35,821 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['27195080']}	{}	200	OK
+INFO 2026-02-23 16:26:36,811 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['30176809']}	{}	200	OK
+INFO 2026-02-23 16:26:37,492 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['27601920']}	{}	200	OK
+INFO 2026-02-23 16:26:38,942 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['27624708']}	{}	200	OK
+INFO 2026-02-23 16:26:39,899 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['3']}	{}	200	OK
+INFO 2026-02-23 16:26:41,052 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['30181789']}	{}	200	OK
+INFO 2026-02-23 16:26:41,740 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['3143727']}	{}	200	OK
+INFO 2026-02-23 16:26:42,693 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['30133186']}	{}	200	OK
+INFO 2026-02-23 16:26:43,730 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['27193180']}	{}	200	OK
+INFO 2026-02-23 16:26:52,508 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['3808583']}	{}	200	OK
+INFO 2026-02-23 16:26:53,189 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26732578']}	{}	200	OK
+INFO 2026-02-23 16:26:53,953 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26781663']}	{}	200	OK
+INFO 2026-02-23 16:26:55,667 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['4']}	{}	200	OK
+INFO 2026-02-23 16:26:56,854 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26862892']}	{}	200	OK
+INFO 2026-02-23 16:26:57,359 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26898064']}	{}	200	OK
+INFO 2026-02-23 16:26:58,515 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26708997']}	{}	200	OK
+INFO 2026-02-23 16:27:00,389 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['6875396']}	{}	200	OK
+INFO 2026-02-23 16:27:02,186 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26873154']}	{}	200	OK
+INFO 2026-02-23 16:27:12,379 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26678813']}	{}	200	OK
+INFO 2026-02-23 16:27:12,816 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26678813']}	{}	200	OK
+INFO 2026-02-23 16:27:13,091 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['6875396']}	{}	200	OK
+INFO 2026-02-23 16:27:14,115 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26381649']}	{}	200	OK
+INFO 2026-02-23 16:27:14,843 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['11625312']}	{}	200	OK
+INFO 2026-02-23 16:27:15,951 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26389148']}	{}	200	OK
+INFO 2026-02-23 16:27:16,910 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['5']}	{}	200	OK
+INFO 2026-02-23 16:27:17,976 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['25980709']}	{}	200	OK
+INFO 2026-02-23 16:27:18,986 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26756314']}	{}	200	OK
+INFO 2026-02-23 16:27:20,159 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26755168']}	{}	200	OK
+INFO 2026-02-23 16:27:25,171 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26806006']}	{}	200	OK
+INFO 2026-02-23 16:27:27,021 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['27055302']}	{}	200	OK
+INFO 2026-02-23 16:27:28,497 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26820695']}	{}	200	OK
+INFO 2026-02-23 16:27:29,149 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26979004']}	{}	200	OK
+INFO 2026-02-23 16:27:30,132 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26754325']}	{}	200	OK
+INFO 2026-02-23 16:27:30,925 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26914022']}	{}	200	OK
+INFO 2026-02-23 16:27:31,860 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['27037561']}	{}	200	OK
+INFO 2026-02-23 16:27:33,273 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['27037557']}	{}	200	OK
+INFO 2026-02-23 16:27:34,843 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26356591']}	{}	200	OK
+INFO 2026-02-23 16:27:35,358 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26830537']}	{}	200	OK
+INFO 2026-02-23 16:27:36,131 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26335572']}	{}	200	OK
+INFO 2026-02-23 16:27:36,981 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['25798448']}	{}	200	OK
+INFO 2026-02-23 16:27:49,179 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['25798448']}	{}	200	OK
+INFO 2026-02-23 16:27:51,264 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['24719063']}	{}	200	OK
+INFO 2026-02-23 16:27:51,760 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26306671']}	{}	200	OK
+INFO 2026-02-23 16:27:52,371 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['25728010']}	{}	200	OK
+INFO 2026-02-23 16:27:54,833 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26596857']}	{}	200	OK
+INFO 2026-02-23 16:27:55,282 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26720440']}	{}	200	OK
+INFO 2026-02-23 16:28:02,697 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['6']}	{}	200	OK
+INFO 2026-02-23 16:28:06,379 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26672475']}	{}	200	OK
+INFO 2026-02-23 16:28:07,445 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['10526498']}	{}	200	OK
+INFO 2026-02-23 16:28:08,181 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['6875611']}	{}	200	OK
+INFO 2026-02-23 16:28:08,787 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['25766529']}	{}	200	OK
+INFO 2026-02-23 16:28:09,516 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['10535562']}	{}	200	OK
+INFO 2026-02-23 16:28:10,515 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['24702267']}	{}	200	OK
+INFO 2026-02-23 16:28:11,182 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['3642895']}	{}	200	OK
+INFO 2026-02-23 16:28:11,926 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['25723328']}	{}	200	OK
+INFO 2026-02-23 16:28:12,558 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['25803050']}	{}	200	OK
+INFO 2026-02-23 16:28:13,452 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['25823999']}	{}	200	OK
+INFO 2026-02-23 16:28:20,759 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['25803050']}	{}	200	OK
+INFO 2026-02-23 16:28:21,913 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26431420']}	{}	200	OK
+INFO 2026-02-23 16:28:22,581 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['26925006']}	{}	200	OK
+INFO 2026-02-23 16:28:23,146 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['20388224']}	{}	200	OK
+INFO 2026-02-23 16:28:24,932 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['10763164']}	{}	200	OK
+INFO 2026-02-23 16:28:26,369 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['22555690']}	{}	200	OK
+INFO 2026-02-23 16:28:28,106 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['6872273']}	{}	200	OK
+INFO 2026-02-23 16:28:28,766 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['3781133']}	{}	200	OK
+INFO 2026-02-23 16:28:29,588 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['10617168']}	{}	200	OK
+INFO 2026-02-23 16:28:30,499 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['10437779']}	{}	200	OK
+INFO 2026-02-23 16:28:31,479 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	GET	/movie.html	{'id': ['20515071']}	{}	200	OK
+INFO 2026-02-23 16:28:50,574 middleware_log __call__ 166819fc434a4e2eb229c36e19f6b9c6	POST	/user/login	{}	{'csrfmiddlewaretoken': ['YZ22LpBn8pWIetqOUEWlnNphOSH0LmvNpRtGvQ5QeyGE9ND5nqDd6FMXyOm5BxjN'], 'username': ['ghzz'], 'password': ['123456a']}	200	OK
+INFO 2026-02-23 16:28:52,944 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/search.html	{}	{}	200	OK
+INFO 2026-02-23 16:28:52,996 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['6']}	{}	200	OK
+INFO 2026-02-23 16:28:58,876 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/search.html	{'type': ['tag'], 's': ['警匪']}	{}	200	OK
+INFO 2026-02-23 16:29:00,032 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['5']}	{}	200	OK
+INFO 2026-02-23 16:29:01,031 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['6']}	{}	200	OK
+INFO 2026-02-23 16:29:02,165 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['7']}	{}	200	OK
+INFO 2026-02-23 16:29:23,094 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['10774066']}	{}	200	OK
+INFO 2026-02-23 16:29:23,854 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3282396']}	{}	200	OK
+INFO 2026-02-23 16:29:24,604 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['10449606']}	{}	200	OK
+INFO 2026-02-23 16:29:25,269 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3170961']}	{}	200	OK
+INFO 2026-02-23 16:29:26,107 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6957283']}	{}	200	OK
+INFO 2026-02-23 16:29:27,258 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6854725']}	{}	200	OK
+INFO 2026-02-23 16:29:27,914 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['25843060']}	{}	200	OK
+INFO 2026-02-23 16:29:28,607 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['26304157']}	{}	200	OK
+INFO 2026-02-23 16:29:29,235 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['10741649']}	{}	200	OK
+INFO 2026-02-23 16:29:30,125 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3256172']}	{}	200	OK
+INFO 2026-02-23 16:29:32,448 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3387483']}	{}	200	OK
+INFO 2026-02-23 16:29:33,800 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5319819']}	{}	200	OK
+INFO 2026-02-23 16:29:34,737 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['4154669']}	{}	200	OK
+INFO 2026-02-23 16:29:35,833 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6738735']}	{}	200	OK
+INFO 2026-02-23 16:29:36,923 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6128922']}	{}	200	OK
+INFO 2026-02-23 16:29:37,973 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['10355623']}	{}	200	OK
+INFO 2026-02-23 16:29:38,809 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6875543']}	{}	200	OK
+INFO 2026-02-23 16:29:40,778 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['10551883']}	{}	200	OK
+INFO 2026-02-23 16:29:41,642 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6875438']}	{}	200	OK
+INFO 2026-02-23 16:29:42,909 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['24321001']}	{}	200	OK
+INFO 2026-02-23 16:29:54,410 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['8']}	{}	200	OK
+INFO 2026-02-23 16:29:56,289 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6874158']}	{}	200	OK
+INFO 2026-02-23 16:29:56,941 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6874020']}	{}	200	OK
+INFO 2026-02-23 16:29:57,540 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['10522852']}	{}	200	OK
+INFO 2026-02-23 16:29:58,326 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6006574']}	{}	200	OK
+INFO 2026-02-23 16:29:58,926 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['10741651']}	{}	200	OK
+INFO 2026-02-23 16:29:59,930 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3238087']}	{}	200	OK
+INFO 2026-02-23 16:30:00,864 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5422105']}	{}	200	OK
+INFO 2026-02-23 16:30:01,364 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6771529']}	{}	200	OK
+INFO 2026-02-23 16:30:02,076 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['4132395']}	{}	200	OK
+INFO 2026-02-23 16:30:02,852 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5154463']}	{}	200	OK
+INFO 2026-02-23 16:30:03,504 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3238087']}	{}	200	OK
+INFO 2026-02-23 16:30:06,538 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5167754']}	{}	200	OK
+INFO 2026-02-23 16:30:07,476 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5123366']}	{}	200	OK
+INFO 2026-02-23 16:30:08,854 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6100793']}	{}	200	OK
+INFO 2026-02-23 16:30:09,930 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6773710']}	{}	200	OK
+INFO 2026-02-23 16:30:10,922 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6854691']}	{}	200	OK
+INFO 2026-02-23 16:30:11,999 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6519574']}	{}	200	OK
+INFO 2026-02-23 16:30:12,906 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6866843']}	{}	200	OK
+INFO 2026-02-23 16:30:13,762 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5157922']}	{}	200	OK
+INFO 2026-02-23 16:30:14,612 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6724610']}	{}	200	OK
+INFO 2026-02-23 16:30:15,634 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6905190']}	{}	200	OK
+INFO 2026-02-23 16:30:36,768 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['9']}	{}	200	OK
+INFO 2026-02-23 16:30:40,135 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['26296566']}	{}	200	OK
+INFO 2026-02-23 16:30:40,488 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1769631']}	{}	200	OK
+INFO 2026-02-23 16:30:41,582 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6109399']}	{}	200	OK
+INFO 2026-02-23 16:30:42,514 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5342326']}	{}	200	OK
+INFO 2026-02-23 16:30:42,905 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['4133988']}	{}	200	OK
+INFO 2026-02-23 16:30:44,149 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['4133814']}	{}	200	OK
+INFO 2026-02-23 16:30:45,011 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3569954']}	{}	200	OK
+INFO 2026-02-23 16:30:45,571 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['4189695']}	{}	200	OK
+INFO 2026-02-23 16:30:46,306 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5188729']}	{}	200	OK
+INFO 2026-02-23 16:30:46,697 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['4097125']}	{}	200	OK
+INFO 2026-02-23 16:30:48,409 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5154575']}	{}	200	OK
+INFO 2026-02-23 16:30:48,810 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3835524']}	{}	200	OK
+INFO 2026-02-23 16:30:50,559 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3364855']}	{}	200	OK
+INFO 2026-02-23 16:30:50,937 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5151082']}	{}	200	OK
+INFO 2026-02-23 16:30:51,754 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5154523']}	{}	200	OK
+INFO 2026-02-23 16:30:52,997 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5423768']}	{}	200	OK
+INFO 2026-02-23 16:30:53,895 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5151196']}	{}	200	OK
+INFO 2026-02-23 16:30:55,775 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3412882']}	{}	200	OK
+INFO 2026-02-23 16:30:56,824 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['2369549']}	{}	200	OK
+INFO 2026-02-23 16:30:57,526 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3395460']}	{}	200	OK
+INFO 2026-02-23 16:34:04,083 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['10']}	{}	200	OK
+INFO 2026-02-23 16:34:07,105 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3391271']}	{}	200	OK
+INFO 2026-02-23 16:34:08,087 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['2338069']}	{}	200	OK
+INFO 2026-02-23 16:34:09,486 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3072077']}	{}	200	OK
+INFO 2026-02-23 16:34:09,909 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3369178']}	{}	200	OK
+INFO 2026-02-23 16:34:11,064 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3158435']}	{}	200	OK
+INFO 2026-02-23 16:34:12,354 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3013604']}	{}	200	OK
+INFO 2026-02-23 16:34:12,748 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['4274274']}	{}	200	OK
+INFO 2026-02-23 16:34:13,549 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['25760407']}	{}	200	OK
+INFO 2026-02-23 16:34:14,935 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['6781985']}	{}	200	OK
+INFO 2026-02-23 16:34:16,573 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3768032']}	{}	200	OK
+INFO 2026-02-23 16:34:17,645 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5344735']}	{}	200	OK
+INFO 2026-02-23 16:34:18,626 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['5326517']}	{}	200	OK
+INFO 2026-02-23 16:34:19,748 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3136488']}	{}	200	OK
+INFO 2026-02-23 16:34:20,964 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1867415']}	{}	200	OK
+INFO 2026-02-23 16:34:21,888 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1507248']}	{}	200	OK
+INFO 2026-02-23 16:34:23,440 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3621404']}	{}	200	OK
+INFO 2026-02-23 16:34:24,733 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3072883']}	{}	200	OK
+INFO 2026-02-23 16:34:26,482 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['2264143']}	{}	200	OK
+INFO 2026-02-23 16:34:27,507 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3072167']}	{}	200	OK
+INFO 2026-02-23 16:34:28,418 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['2148242']}	{}	200	OK
+INFO 2026-02-23 16:34:37,599 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['11']}	{}	200	OK
+INFO 2026-02-23 16:35:13,376 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1507151']}	{}	200	OK
+INFO 2026-02-23 16:35:15,136 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3159504']}	{}	200	OK
+INFO 2026-02-23 16:35:15,689 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['4924688']}	{}	200	OK
+INFO 2026-02-23 16:35:17,087 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['2278017']}	{}	200	OK
+INFO 2026-02-23 16:35:17,568 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['2080133']}	{}	200	OK
+INFO 2026-02-23 16:35:18,709 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['2228239']}	{}	200	OK
+INFO 2026-02-23 16:35:19,503 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1578503']}	{}	200	OK
+INFO 2026-02-23 16:35:20,770 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['2368439']}	{}	200	OK
+INFO 2026-02-23 16:35:22,083 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1947114']}	{}	200	OK
+INFO 2026-02-23 16:35:23,224 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3226106']}	{}	200	OK
+INFO 2026-02-23 16:35:25,154 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1915729']}	{}	200	OK
+INFO 2026-02-23 16:35:26,103 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1853160']}	{}	200	OK
+INFO 2026-02-23 16:35:26,959 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1441801']}	{}	200	OK
+INFO 2026-02-23 16:35:28,089 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1428177']}	{}	200	OK
+INFO 2026-02-23 16:35:29,123 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1865108']}	{}	200	OK
+INFO 2026-02-23 16:35:29,784 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['2046237']}	{}	200	OK
+INFO 2026-02-23 16:35:32,462 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['3001812']}	{}	200	OK
+INFO 2026-02-23 16:35:33,863 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1907653']}	{}	200	OK
+INFO 2026-02-23 16:35:35,365 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['2020641']}	{}	200	OK
+INFO 2026-02-23 16:35:36,155 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1936906']}	{}	200	OK
+INFO 2026-02-23 16:35:45,795 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/search.html	{'type': ['tag'], 's': ['警匪'], 'limit': ['20'], 'page': ['12']}	{}	200	OK
+INFO 2026-02-23 16:37:47,292 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1420053']}	{}	200	OK
+INFO 2026-02-23 16:37:50,102 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie/movie_rating	{'rating': ['5'], 'movieId': ['1420053']}	{}	200	OK
+INFO 2026-02-23 16:37:56,446 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie.html	{'id': ['1305149']}	{}	200	OK
+INFO 2026-02-23 16:38:07,129 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie/movie_rating	{'rating': ['2'], 'movieId': ['1305149']}	{}	200	OK
+INFO 2026-02-23 16:38:09,689 middleware_log __call__ 80ebfcd68f8d4c39b23d873f6a919ed1	GET	/movie/movie_like	{'movieId': ['1305149']}	{}	200	OK
+INFO 2026-02-23 16:45:01,879 middleware_log __call__ 64c901c9b2844d60acd2f5be04dd5f50	GET	/	{}	{}	200	OK
+INFO 2026-02-23 16:45:06,429 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/	{}	{}	200	OK
+INFO 2026-02-23 16:45:08,979 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/search.html	{'type': ['tag'], 's': ['爱情']}	{}	200	OK
+INFO 2026-02-23 16:45:10,785 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['26737490']}	{}	200	OK
+INFO 2026-02-23 16:45:12,068 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['30309158']}	{}	200	OK
+INFO 2026-02-23 16:45:12,683 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['33406097']}	{}	200	OK
+INFO 2026-02-23 16:45:13,348 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['33446786']}	{}	200	OK
+INFO 2026-02-23 16:45:14,978 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['30466860']}	{}	200	OK
+INFO 2026-02-23 16:45:16,208 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['34464477']}	{}	200	OK
+INFO 2026-02-23 16:45:16,759 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['30391352']}	{}	200	OK
+INFO 2026-02-23 16:45:17,467 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['30463454']}	{}	200	OK
+INFO 2026-02-23 16:45:18,369 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['33412928']}	{}	200	OK
+INFO 2026-02-23 16:45:18,843 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['34440182']}	{}	200	OK
+INFO 2026-02-23 16:45:19,962 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['30395081']}	{}	200	OK
+INFO 2026-02-23 16:45:21,233 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['34603816']}	{}	200	OK
+INFO 2026-02-23 16:45:21,775 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['26580108']}	{}	200	OK
+INFO 2026-02-23 16:45:22,642 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['26664834']}	{}	200	OK
+INFO 2026-02-23 16:45:23,290 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['27174271']}	{}	200	OK
+INFO 2026-02-23 16:45:24,439 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['27000951']}	{}	200	OK
+INFO 2026-02-23 16:45:25,249 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['33407575']}	{}	200	OK
+INFO 2026-02-23 16:45:26,050 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['24875519']}	{}	200	OK
+INFO 2026-02-23 16:45:27,540 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['26661193']}	{}	200	OK
+INFO 2026-02-23 16:45:29,274 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie.html	{'id': ['30271236']}	{}	200	OK
+INFO 2026-02-23 16:45:30,757 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['26737490']}	{}	200	OK
+INFO 2026-02-23 16:45:32,782 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	GET	/movie/movie_like	{'movieId': ['26737490']}	{}	200	OK
+INFO 2026-02-23 16:45:41,529 middleware_log __call__ bd3c8c85ace54e3985cfddc2d015a8c1	POST	/user/login	{}	{'csrfmiddlewaretoken': ['K3VRaFb6jbjr2qSwZliLw538V0AG94otbVmvU6Fzpk3nXK5Ns7ZDfXqOFWfLZfct'], 'username': ['ghzz'], 'password': ['123456a']}	200	OK
+INFO 2026-02-23 16:45:44,093 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['26737490']}	{}	200	OK
+INFO 2026-02-23 16:45:44,151 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{}	{}	200	OK
+INFO 2026-02-23 16:45:48,225 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/	{}	{}	200	OK
+INFO 2026-02-23 16:45:53,023 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/search.html	{'type': ['tag'], 's': ['爱情']}	{}	200	OK
+INFO 2026-02-23 16:46:03,539 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/search.html	{'type': ['tag'], 's': ['爱情']}	{}	200	OK
+INFO 2026-02-23 16:46:05,600 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['26737490']}	{}	200	OK
+INFO 2026-02-23 16:46:06,250 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['30309158']}	{}	200	OK
+INFO 2026-02-23 16:46:06,791 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['33406097']}	{}	200	OK
+INFO 2026-02-23 16:46:07,552 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['33446786']}	{}	200	OK
+INFO 2026-02-23 16:46:08,619 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['30466860']}	{}	200	OK
+INFO 2026-02-23 16:46:10,148 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['34464477']}	{}	200	OK
+INFO 2026-02-23 16:46:11,109 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['30391352']}	{}	200	OK
+INFO 2026-02-23 16:46:11,780 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['30463454']}	{}	200	OK
+INFO 2026-02-23 16:46:12,829 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['33412928']}	{}	200	OK
+INFO 2026-02-23 16:46:13,479 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['34440182']}	{}	200	OK
+INFO 2026-02-23 16:46:14,599 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['30395081']}	{}	200	OK
+INFO 2026-02-23 16:46:15,258 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['34603816']}	{}	200	OK
+INFO 2026-02-23 16:46:16,169 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['26664834']}	{}	200	OK
+INFO 2026-02-23 16:46:17,193 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['26580108']}	{}	200	OK
+INFO 2026-02-23 16:46:18,198 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['27174271']}	{}	200	OK
+INFO 2026-02-23 16:46:19,314 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['27000951']}	{}	200	OK
+INFO 2026-02-23 16:46:19,937 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['33407575']}	{}	200	OK
+INFO 2026-02-23 16:46:20,684 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['24875519']}	{}	200	OK
+INFO 2026-02-23 16:46:21,551 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['26661193']}	{}	200	OK
+INFO 2026-02-23 16:46:22,412 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['30271236']}	{}	200	OK
+INFO 2026-02-23 16:46:24,362 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['26737490']}	{}	200	OK
+INFO 2026-02-23 16:46:26,174 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_like	{'movieId': ['26737490']}	{}	200	OK
+INFO 2026-02-23 16:46:30,211 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['30309158']}	{}	200	OK
+INFO 2026-02-23 16:46:31,104 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_like	{'movieId': ['30309158']}	{}	200	OK
+INFO 2026-02-23 16:46:33,159 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['4'], 'movieId': ['33406097']}	{}	200	OK
+INFO 2026-02-23 16:46:35,803 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['4'], 'movieId': ['33446786']}	{}	200	OK
+INFO 2026-02-23 16:46:37,914 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['4'], 'movieId': ['30466860']}	{}	200	OK
+INFO 2026-02-23 16:46:39,980 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['34464477']}	{}	200	OK
+INFO 2026-02-23 16:46:42,113 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['30391352']}	{}	200	OK
+INFO 2026-02-23 16:46:44,619 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['30463454']}	{}	200	OK
+INFO 2026-02-23 16:46:47,093 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['33412928']}	{}	200	OK
+INFO 2026-02-23 16:46:48,813 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['34440182']}	{}	200	OK
+INFO 2026-02-23 16:46:50,875 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['4'], 'movieId': ['30395081']}	{}	200	OK
+INFO 2026-02-23 16:46:54,302 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['5'], 'movieId': ['34603816']}	{}	200	OK
+INFO 2026-02-23 16:46:57,950 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['4'], 'movieId': ['26664834']}	{}	200	OK
+INFO 2026-02-23 16:47:00,132 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['26580108']}	{}	200	OK
+INFO 2026-02-23 16:47:02,320 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['27174271']}	{}	200	OK
+INFO 2026-02-23 16:47:04,165 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['27000951']}	{}	200	OK
+INFO 2026-02-23 16:47:06,441 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['2'], 'movieId': ['33407575']}	{}	200	OK
+INFO 2026-02-23 16:47:08,652 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['5'], 'movieId': ['24875519']}	{}	200	OK
+INFO 2026-02-23 16:47:09,801 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['1'], 'movieId': ['24875519']}	{}	200	OK
+INFO 2026-02-23 16:47:11,779 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['1'], 'movieId': ['26661193']}	{}	200	OK
+INFO 2026-02-23 16:47:14,224 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['5'], 'movieId': ['30271236']}	{}	200	OK
+INFO 2026-02-23 16:47:15,488 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_like	{'movieId': ['30271236']}	{}	200	OK
+INFO 2026-02-23 16:47:19,192 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/search.html	{'type': ['tag'], 's': ['爱情'], 'limit': ['20'], 'page': ['2']}	{}	200	OK
+INFO 2026-02-23 16:49:15,328 middleware_log __call__ None	POST	/login/	{}	{'username': ['ghzz'], 'password': ['123456a']}	404	Not Found
+INFO 2026-02-23 16:50:56,452 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['26640100']}	{}	200	OK
+INFO 2026-02-23 16:50:57,041 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['26389470']}	{}	200	OK
+INFO 2026-02-23 16:50:57,729 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['30284119']}	{}	200	OK
+INFO 2026-02-23 16:50:58,604 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['30210703']}	{}	200	OK
+INFO 2026-02-23 16:50:59,514 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['30459680']}	{}	200	OK
+INFO 2026-02-23 16:51:00,690 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['30170833']}	{}	200	OK
+INFO 2026-02-23 16:51:01,432 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['25812001']}	{}	200	OK
+INFO 2026-02-23 16:51:01,982 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['25873396']}	{}	200	OK
+INFO 2026-02-23 16:51:03,047 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['30446493']}	{}	200	OK
+INFO 2026-02-23 16:51:04,120 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['25970980']}	{}	200	OK
+INFO 2026-02-23 16:51:05,283 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['26290372']}	{}	200	OK
+INFO 2026-02-23 16:51:05,942 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['6892074']}	{}	200	OK
+INFO 2026-02-23 16:51:07,000 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['26630167']}	{}	200	OK
+INFO 2026-02-23 16:51:07,712 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['30465916']}	{}	200	OK
+INFO 2026-02-23 16:51:08,447 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['25881778']}	{}	200	OK
+INFO 2026-02-23 16:51:09,787 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['3097440']}	{}	200	OK
+INFO 2026-02-23 16:51:10,681 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['26878750']}	{}	200	OK
+INFO 2026-02-23 16:51:11,868 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['26874608']}	{}	200	OK
+INFO 2026-02-23 16:51:12,864 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['33427846']}	{}	200	OK
+INFO 2026-02-23 16:51:13,792 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie.html	{'id': ['4915856']}	{}	200	OK
+INFO 2026-02-23 16:51:16,224 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['1'], 'movieId': ['26640100']}	{}	200	OK
+INFO 2026-02-23 16:51:18,860 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['1'], 'movieId': ['26389470']}	{}	200	OK
+INFO 2026-02-23 16:51:21,676 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['30284119']}	{}	200	OK
+INFO 2026-02-23 16:51:23,633 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_like	{'movieId': ['30284119']}	{}	200	OK
+INFO 2026-02-23 16:51:26,525 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['30210703']}	{}	200	OK
+INFO 2026-02-23 16:51:27,272 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_like	{'movieId': ['30210703']}	{}	200	OK
+INFO 2026-02-23 16:51:30,641 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['2'], 'movieId': ['30459680']}	{}	200	OK
+INFO 2026-02-23 16:51:32,953 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['1'], 'movieId': ['30170833']}	{}	200	OK
+INFO 2026-02-23 16:51:35,314 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['1'], 'movieId': ['25812001']}	{}	200	OK
+INFO 2026-02-23 16:51:37,426 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['1'], 'movieId': ['25873396']}	{}	200	OK
+INFO 2026-02-23 16:51:40,255 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['30446493']}	{}	200	OK
+INFO 2026-02-23 16:51:42,836 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['1'], 'movieId': ['25970980']}	{}	200	OK
+INFO 2026-02-23 16:51:46,123 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['1'], 'movieId': ['26290372']}	{}	200	OK
+INFO 2026-02-23 16:51:48,953 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['2'], 'movieId': ['6892074']}	{}	200	OK
+INFO 2026-02-23 16:51:51,186 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['2'], 'movieId': ['26630167']}	{}	200	OK
+INFO 2026-02-23 16:51:53,099 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['4'], 'movieId': ['30465916']}	{}	200	OK
+INFO 2026-02-23 16:51:54,848 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['25881778']}	{}	200	OK
+INFO 2026-02-23 16:51:56,642 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['3097440']}	{}	200	OK
+INFO 2026-02-23 16:51:57,718 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['1'], 'movieId': ['3097440']}	{}	200	OK
+INFO 2026-02-23 16:51:59,871 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['3'], 'movieId': ['26878750']}	{}	200	OK
+INFO 2026-02-23 16:52:01,954 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['1'], 'movieId': ['26874608']}	{}	200	OK
+INFO 2026-02-23 16:52:04,010 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['1'], 'movieId': ['33427846']}	{}	200	OK
+INFO 2026-02-23 16:52:05,923 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/movie/movie_rating	{'rating': ['1'], 'movieId': ['4915856']}	{}	200	OK
+INFO 2026-02-23 16:52:08,438 middleware_log __call__ e750d32958824ac1924e8447bdc4d065	GET	/search.html	{'type': ['tag'], 's': ['爱情'], 'limit': ['20'], 'page': ['3']}	{}	200	OK

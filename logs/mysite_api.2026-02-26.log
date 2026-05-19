@@ -1,0 +1,135 @@
+INFO 2026-02-26 12:06:59,272 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:07:04,435 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:07:13,690 middleware_log __call__ f32b2196f6234d969a39b4c0d8ed89ee	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:07:27,511 middleware_log __call__ f32b2196f6234d969a39b4c0d8ed89ee	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:07:31,628 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:08:03,809 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/	{}	{}	302	Found
+INFO 2026-02-26 12:08:03,824 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/login/	{'next': ['/admin/']}	{}	200	OK
+INFO 2026-02-26 12:09:39,163 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:09:42,914 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/	{}	{}	302	Found
+INFO 2026-02-26 12:09:42,929 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/login/	{'next': ['/admin/']}	{}	200	OK
+INFO 2026-02-26 12:09:48,667 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	POST	/admin/login/	{'next': ['/admin/']}	{'csrfmiddlewaretoken': ['4IrUY8grpoPS1h3XR4DjLDxARWbpzPvUvASyIzKUvxzOWBgekQkbuvUgBSQup0jU'], 'username': ['bysj'], 'password': ['12345678'], 'next': ['/admin/']}	302	Found
+INFO 2026-02-26 12:09:49,135 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/	{}	{}	200	OK
+INFO 2026-02-26 12:09:55,118 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/api/indexfocus/	{}	{}	200	OK
+INFO 2026-02-26 12:09:55,646 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:09:56,498 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/api/districts/	{}	{}	200	OK
+INFO 2026-02-26 12:09:56,776 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:09:58,813 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/django_apscheduler/djangojob/	{}	{}	200	OK
+INFO 2026-02-26 12:09:59,148 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:09:59,520 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/django_apscheduler/djangojobexecution/	{}	{}	200	OK
+INFO 2026-02-26 12:09:59,719 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:10:05,968 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/movie/movielikes/	{}	{}	200	OK
+INFO 2026-02-26 12:10:06,675 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:10:08,140 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/user/usersperfer/	{}	{}	200	OK
+INFO 2026-02-26 12:10:09,264 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/user/usercookie/	{}	{}	200	OK
+INFO 2026-02-26 12:10:09,298 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/movie/moviesearchs/	{}	{}	200	OK
+INFO 2026-02-26 12:10:10,341 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/user/usersbase/	{}	{}	200	OK
+INFO 2026-02-26 12:10:10,942 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:10:11,288 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/user/usermovierecommend/	{}	{}	200	OK
+INFO 2026-02-26 12:10:11,509 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:10:11,700 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/user/usersdetail/	{}	{}	200	OK
+INFO 2026-02-26 12:10:11,959 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:10:12,392 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:10:12,768 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:10:13,151 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:10:14,548 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/movie/movietagdb/	{}	{}	200	OK
+INFO 2026-02-26 12:10:15,709 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:10:18,860 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/user/usertag/	{}	{}	200	OK
+INFO 2026-02-26 12:10:19,698 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:10:20,334 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/movie/moviebrows/	{}	{}	200	OK
+INFO 2026-02-26 12:10:57,330 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/api/indexfocus/add/	{}	{}	200	OK
+INFO 2026-02-26 12:10:57,602 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:11:01,098 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/movie/collectmoviedb/	{'_to_field': ['movie_id'], '_popup': ['1']}	{}	200	OK
+INFO 2026-02-26 12:11:03,538 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/movie/collectmoviedb/	{'_to_field': ['movie_id'], '_popup': ['1']}	{}	200	OK
+INFO 2026-02-26 12:11:10,005 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/api/indexfocus/	{}	{}	200	OK
+INFO 2026-02-26 12:11:10,397 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-26 12:11:38,474 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:15:55,948 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:16:25,943 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:16:37,822 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/register.html	{}	{}	200	OK
+INFO 2026-02-26 12:16:38,213 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/api/captcha	{}	{}	200	OK
+INFO 2026-02-26 12:16:38,409 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/api/districts	{'parent': ['86']}	{}	200	OK
+INFO 2026-02-26 12:18:55,688 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/register.html	{}	{}	200	OK
+INFO 2026-02-26 12:18:55,968 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/api/captcha	{}	{}	200	OK
+INFO 2026-02-26 12:18:56,163 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/api/districts	{'parent': ['86']}	{}	200	OK
+INFO 2026-02-26 12:19:02,780 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:19:05,178 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:19:07,438 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/.well-known/appspecific/com.chrome.devtools.json	{}	{}	404	Not Found
+INFO 2026-02-26 12:19:15,638 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:19:15,720 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/.well-known/appspecific/com.chrome.devtools.json	{}	{}	404	Not Found
+INFO 2026-02-26 12:19:30,969 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:19:31,042 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/.well-known/appspecific/com.chrome.devtools.json	{}	{}	404	Not Found
+INFO 2026-02-26 12:20:01,808 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:20:04,502 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:20:07,531 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:50:11,366 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:52:47,340 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:52:50,838 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:58:18,462 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 12:58:40,425 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:01:04,489 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:01:27,887 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:02:03,461 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:03:02,406 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:06:01,738 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:06:34,388 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:06:41,207 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:06:58,306 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:07:35,938 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:07:39,047 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:08:01,877 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:10:04,089 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:10:17,573 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/search.html	{'type': ['all'], 's': ['霸王别姬']}	{}	200	OK
+INFO 2026-02-26 13:15:58,473 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:16:03,925 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:16:25,384 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/.well-known/appspecific/com.chrome.devtools.json	{}	{}	404	Not Found
+INFO 2026-02-26 13:16:41,041 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/search.html	{'type': ['tag'], 's': ['悬疑']}	{}	200	OK
+INFO 2026-02-26 13:16:41,129 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/.well-known/appspecific/com.chrome.devtools.json	{}	{}	404	Not Found
+INFO 2026-02-26 13:16:46,692 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/.well-known/appspecific/com.chrome.devtools.json	{}	{}	404	Not Found
+INFO 2026-02-26 13:16:46,719 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/.well-known/appspecific/com.chrome.devtools.json	{}	{}	404	Not Found
+INFO 2026-02-26 13:18:56,448 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:20:23,266 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:20:34,095 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:20:42,181 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:23:06,475 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:23:19,171 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:23:30,732 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:23:36,971 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:23:39,966 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:23:52,416 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:23:59,711 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:24:08,901 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:24:12,366 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/search.html	{'type': ['tag'], 's': ['传记']}	{}	200	OK
+INFO 2026-02-26 13:24:22,798 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:25:46,317 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:25:48,447 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:27:05,704 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:27:29,861 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:27:43,878 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:27:55,896 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:28:09,578 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:28:16,163 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:28:27,526 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:28:37,094 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:28:46,111 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/search.html	{'type': ['tag'], 's': ['传记']}	{}	200	OK
+INFO 2026-02-26 13:28:47,767 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:28:50,990 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:28:56,017 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:29:02,001 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:29:51,784 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:29:58,242 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:30:08,177 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:30:13,913 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:30:19,554 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:30:30,262 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:30:36,555 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:36:10,313 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:36:12,207 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:36:53,085 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:36:56,408 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:37:17,005 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:37:21,785 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:37:42,515 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:37:48,342 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:37:56,508 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK
+INFO 2026-02-26 13:38:03,179 middleware_log __call__ b01090f65dfe49f9881b5e1a2cbf2800	GET	/	{}	{}	200	OK

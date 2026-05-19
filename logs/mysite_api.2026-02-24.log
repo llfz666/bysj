@@ -1,0 +1,18 @@
+INFO 2026-02-24 12:18:55,625 middleware_log __call__ 8c09ab3c108f4298bdd1d3b3a74a4373	GET	/	{}	{}	200	OK
+INFO 2026-02-24 12:18:58,599 middleware_log __call__ 2bca3c0033ad4570bcb00f33d562ec95	GET	/	{}	{}	200	OK
+INFO 2026-02-24 12:19:05,875 middleware_log __call__ 2bca3c0033ad4570bcb00f33d562ec95	GET	/movie.html	{'id': ['1291546']}	{}	200	OK
+INFO 2026-02-24 12:21:14,281 middleware_log __call__ 2bca3c0033ad4570bcb00f33d562ec95	POST	/user/login	{}	{'csrfmiddlewaretoken': ['wJAemtlFnG4abvT5udf8XcCUgxT1hGBaXB1S6UP8tPO66P6mXZW0G4ZA0ty67Rpa'], 'username': ['ghzz'], 'password': ['123456a']}	200	OK
+INFO 2026-02-24 12:21:18,085 middleware_log __call__ 9a2a847d04bb4763a61d9132872d20ee	GET	/	{}	{}	200	OK
+INFO 2026-02-24 12:21:18,102 middleware_log __call__ 9a2a847d04bb4763a61d9132872d20ee	GET	/	{}	{}	200	OK
+INFO 2026-02-24 12:21:28,248 middleware_log __call__ 9a2a847d04bb4763a61d9132872d20ee	GET	/movie.html	{'id': ['26577050']}	{}	200	OK
+INFO 2026-02-24 12:22:17,228 middleware_log __call__ 9a2a847d04bb4763a61d9132872d20ee	GET	/	{}	{}	200	OK
+INFO 2026-02-24 12:22:27,185 middleware_log __call__ 9a2a847d04bb4763a61d9132872d20ee	GET	/userCollection.html	{}	{}	200	OK
+INFO 2026-02-24 12:22:33,483 middleware_log __call__ 9a2a847d04bb4763a61d9132872d20ee	GET	/	{}	{}	200	OK
+INFO 2026-02-24 12:31:37,528 middleware_log __call__ 9a2a847d04bb4763a61d9132872d20ee	GET	/movie.html	{'id': ['30309318']}	{}	200	OK
+INFO 2026-02-24 12:36:34,305 middleware_log __call__ 9a2a847d04bb4763a61d9132872d20ee	GET	/movie.html	{'id': ['30309318']}	{}	200	OK
+INFO 2026-02-24 12:36:54,138 middleware_log __call__ 9a2a847d04bb4763a61d9132872d20ee	GET	/	{}	{}	200	OK
+INFO 2026-02-24 12:43:48,453 middleware_log __call__ bff6501ccd5843bf8a721f59fabfa8dc	GET	/	{}	{}	200	OK
+INFO 2026-02-24 12:44:15,716 middleware_log __call__ 9a2a847d04bb4763a61d9132872d20ee	GET	/	{}	{}	200	OK
+INFO 2026-02-24 12:45:55,610 middleware_log __call__ 9a2a847d04bb4763a61d9132872d20ee	GET	/movie.html	{'id': ['30309318']}	{}	200	OK
+INFO 2026-02-24 12:46:02,811 middleware_log __call__ 9a2a847d04bb4763a61d9132872d20ee	GET	/movie.html	{'id': ['30135039']}	{}	200	OK
+INFO 2026-02-24 12:46:06,845 middleware_log __call__ 9a2a847d04bb4763a61d9132872d20ee	GET	/movie.html	{'id': ['1944903']}	{}	200	OK

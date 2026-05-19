@@ -1,0 +1,95 @@
+INFO 2026-02-28 11:36:33,486 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/	{}	{}	200	OK
+INFO 2026-02-28 11:36:35,566 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/	{}	{}	200	OK
+INFO 2026-02-28 11:36:46,406 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/user/usersperfer/	{}	{}	200	OK
+INFO 2026-02-28 11:36:46,562 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 11:36:49,270 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/user/usermovierecommend/	{}	{}	200	OK
+INFO 2026-02-28 11:36:49,606 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 11:36:53,894 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/user/usertag/	{}	{}	200	OK
+INFO 2026-02-28 11:36:54,781 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 11:36:55,419 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/user/usersbase/3/change/	{}	{}	200	OK
+INFO 2026-02-28 11:36:55,746 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 11:36:58,492 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/user/usermovierecommend/	{}	{}	200	OK
+INFO 2026-02-28 11:36:58,836 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 13:47:20,443 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/	{}	{}	200	OK
+INFO 2026-02-28 13:47:21,024 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/user/usersdetail/	{}	{}	200	OK
+INFO 2026-02-28 13:47:24,411 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/user/usermovierecommend/	{}	{}	200	OK
+INFO 2026-02-28 13:47:24,559 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 13:52:36,254 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/user/logout	{}	{}	200	OK
+INFO 2026-02-28 13:52:41,066 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/	{}	{}	200	OK
+INFO 2026-02-28 13:52:50,591 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/django_apscheduler/djangojobexecution/	{}	{}	302	Found
+INFO 2026-02-28 13:52:50,612 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/login/	{'next': ['/admin/django_apscheduler/djangojobexecution/']}	{}	200	OK
+INFO 2026-02-28 13:52:50,661 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/	{}	{}	302	Found
+INFO 2026-02-28 13:52:50,683 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/login/	{'next': ['/admin/']}	{}	200	OK
+INFO 2026-02-28 13:52:59,647 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	POST	/admin/login/	{'next': ['/admin/']}	{'csrfmiddlewaretoken': ['RHW2SU35YZCWu6q4qM5GGH8qstKzLiWNRIBtOK6j2360VwYMKh6mhpbD6UiIxBtG'], 'username': ['bysj'], 'password': ['12345678'], 'next': ['/admin/']}	302	Found
+INFO 2026-02-28 13:53:00,059 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/	{}	{}	200	OK
+INFO 2026-02-28 13:53:02,333 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/api/indexfocus/	{}	{}	200	OK
+INFO 2026-02-28 13:53:02,630 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 13:53:09,541 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/api/indexfocus/add/	{}	{}	200	OK
+INFO 2026-02-28 13:53:09,973 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 13:53:14,367 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/movie/collectmoviedb/	{'_to_field': ['movie_id'], '_popup': ['1']}	{}	200	OK
+INFO 2026-02-28 13:53:19,969 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/movie/collectmoviedb/	{'p': ['2'], '_to_field': ['movie_id'], '_popup': ['1']}	{}	200	OK
+INFO 2026-02-28 13:53:25,516 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/movie/collectmoviedb/	{'p': ['3'], '_to_field': ['movie_id'], '_popup': ['1']}	{}	200	OK
+INFO 2026-02-28 13:53:37,557 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/movie/collectmoviedb/	{'q': ['星际'], '_to_field': ['movie_id'], '_popup': ['1']}	{}	200	OK
+INFO 2026-02-28 14:04:27,877 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	POST	/admin/api/indexfocus/add/	{}	{'csrfmiddlewaretoken': ['saloEfZzstQhEYpHLWmwyJqRdgj9iEYyYmbHTDJVZgWtNpkC9qaQXk0HGLT3hGL0'], 'movie_id': ['1889243'], 'show_id': ['1'], 'movie_content': ['0'], 'status': ['1'], 'create_time_0': ['2026/02/28'], 'create_time_1': ['13:53'], 'initial-create_time_0': ['2026/02/28'], 'initial-create_time_1': ['13:53'], '_save': [''], 'actionName': ['actionValue']}	302	Found
+INFO 2026-02-28 14:04:29,331 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/api/indexfocus/	{}	{}	200	OK
+INFO 2026-02-28 14:04:29,823 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 14:04:38,761 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	POST	/admin/api/indexfocus/	{}	{'csrfmiddlewaretoken': ['XjMZ9P80sM5gaGfFiV3S3VPt4M0l1kGjtvCiodSmZzbsj7aAGpRcswpjxhAf0mtL'], 'action': ['delete_selected'], 'select_across': ['0'], '_selected_action': ['2', '1', '3']}	200	OK
+INFO 2026-02-28 14:04:45,811 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	POST	/admin/api/indexfocus/	{}	{'csrfmiddlewaretoken': ['YHHvqT3PREWn6ZmOz3U7W2XFsg6QagwRuTxOFhNbor2zfqhJXxIrlDxvVLGK9ijj'], '_selected_action': ['2', '1', '3'], 'action': ['delete_selected'], 'post': ['yes']}	302	Found
+INFO 2026-02-28 14:04:46,701 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/api/indexfocus/	{}	{}	200	OK
+INFO 2026-02-28 14:04:47,084 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 14:04:53,918 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/	{}	{}	200	OK
+INFO 2026-02-28 14:05:04,311 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/api/indexfocus/add/	{}	{}	200	OK
+INFO 2026-02-28 14:05:04,622 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 14:05:08,446 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/movie/collectmoviedb/	{'_to_field': ['movie_id'], '_popup': ['1']}	{}	200	OK
+INFO 2026-02-28 14:05:27,063 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/movie/collectmoviedb/	{'q': ['霸王别姬'], '_to_field': ['movie_id'], '_popup': ['1']}	{}	200	OK
+INFO 2026-02-28 14:06:27,232 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/movie/collectmoviedb/	{'_to_field': ['movie_id'], '_popup': ['1']}	{}	200	OK
+INFO 2026-02-28 14:06:37,076 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/movie/collectmoviedb/	{'q': ['楚门的世界'], '_to_field': ['movie_id'], '_popup': ['1']}	{}	200	OK
+INFO 2026-02-28 14:18:15,516 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	POST	/admin/api/indexfocus/add/	{}	{'csrfmiddlewaretoken': ['sW7zmva41rXqxtN48ubWzgX83EoD8QXVY8XSBTUqye3CGUIZwYZgYRxYw9Yx7SKn'], 'movie_id': ['1292064'], 'show_id': ['0'], 'movie_content': ['0'], 'status': ['1'], 'create_time_0': ['2026/02/28'], 'create_time_1': ['14:05'], 'initial-create_time_0': ['2026/02/28'], 'initial-create_time_1': ['14:05'], '_save': [''], 'actionName': ['actionValue']}	302	Found
+INFO 2026-02-28 14:18:16,443 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/api/indexfocus/	{}	{}	200	OK
+INFO 2026-02-28 14:18:16,749 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 14:18:18,660 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/api/indexfocus/add/	{}	{}	200	OK
+INFO 2026-02-28 14:18:18,954 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 14:18:21,106 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/movie/collectmoviedb/	{'_to_field': ['movie_id'], '_popup': ['1']}	{}	200	OK
+INFO 2026-02-28 14:18:30,793 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/movie/collectmoviedb/	{'q': ['无双'], '_to_field': ['movie_id'], '_popup': ['1']}	{}	200	OK
+INFO 2026-02-28 14:19:42,199 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	POST	/admin/api/indexfocus/add/	{}	{'csrfmiddlewaretoken': ['V8a4EsULgwqOPXjBNZLqEMVUkg1AITjRrk0nTQE7Njw0YoewbtzK3nvKNLBuHV6j'], 'movie_id': ['26425063'], 'show_id': ['0'], 'movie_content': ['0'], 'status': ['1'], 'create_time_0': ['2026/02/28'], 'create_time_1': ['14:18'], 'initial-create_time_0': ['2026/02/28'], 'initial-create_time_1': ['14:18'], '_save': [''], 'actionName': ['actionValue']}	302	Found
+INFO 2026-02-28 14:19:43,253 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/api/indexfocus/	{}	{}	200	OK
+INFO 2026-02-28 14:19:43,615 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/admin/jsi18n/	{}	{}	200	OK
+INFO 2026-02-28 14:19:46,910 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/	{}	{}	200	OK
+INFO 2026-02-28 14:19:54,076 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/register.html	{}	{}	200	OK
+INFO 2026-02-28 14:19:54,418 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/api/captcha	{}	{}	200	OK
+INFO 2026-02-28 14:19:54,607 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/api/districts	{'parent': ['86']}	{}	200	OK
+INFO 2026-02-28 14:20:17,963 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/	{}	{}	200	OK
+INFO 2026-02-28 14:21:16,406 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/search.html	{'type': ['all'], 's': ['无双']}	{}	200	OK
+INFO 2026-02-28 14:21:18,656 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/movie.html	{'id': ['26425063']}	{}	200	OK
+INFO 2026-02-28 14:21:21,103 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/movie/movie_rating	{'rating': ['5'], 'movieId': ['26425063']}	{}	200	OK
+INFO 2026-02-28 14:21:21,888 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/movie/movie_like	{'movieId': ['26425063']}	{}	200	OK
+INFO 2026-02-28 14:21:24,091 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/movie/movie_like	{'movieId': ['26425063']}	{}	200	OK
+INFO 2026-02-28 14:21:50,989 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/movie/movie_rating	{'rating': ['5'], 'movieId': ['26425063']}	{}	200	OK
+INFO 2026-02-28 14:22:19,644 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	POST	/movie/movie_comment	{}	{'csrfmiddlewaretoken': ['4hEOiJiOExoj7p1NoLtRcoIjmhonM1gBAtu7x72abkuvgQWIMfhbBZi9PMYhL333'], 'movie_id': ['26425063'], 'movie_title': ['无双'], 'title': ['剧情'], 'content_text': ['非常精彩']}	200	OK
+INFO 2026-02-28 14:22:25,511 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	GET	/movie.html	{'id': ['26425063']}	{}	200	OK
+INFO 2026-02-28 14:22:44,165 middleware_log __call__ db25abe735144ec9a0b7a9c063d504a0	POST	/user/login	{}	{'csrfmiddlewaretoken': ['SLzOvgmlbBqrx651fp1tKVpUNIoKA7KUoXp7KE6HIowDGx0WDTPN9wZKgdYEz9xm'], 'username': ['ghzz'], 'password': ['123456a']}	200	OK
+INFO 2026-02-28 14:22:48,342 middleware_log __call__ 5fd6f6c9946342bb833947501787638c	GET	/movie.html	{}	{}	200	OK
+INFO 2026-02-28 14:22:48,349 middleware_log __call__ 5fd6f6c9946342bb833947501787638c	GET	/movie.html	{'id': ['26425063']}	{}	200	OK
+INFO 2026-02-28 14:22:52,816 middleware_log __call__ 5fd6f6c9946342bb833947501787638c	GET	/	{}	{}	200	OK
+INFO 2026-02-28 16:27:56,331 middleware_log __call__ 5fd6f6c9946342bb833947501787638c	GET	/user/logout	{}	{}	200	OK
+INFO 2026-02-28 16:28:00,108 middleware_log __call__ 5fd6f6c9946342bb833947501787638c	GET	/	{}	{}	200	OK
+INFO 2026-02-28 16:28:01,933 middleware_log __call__ 5fd6f6c9946342bb833947501787638c	GET	/register.html	{}	{}	200	OK
+INFO 2026-02-28 16:28:02,011 middleware_log __call__ 5fd6f6c9946342bb833947501787638c	GET	/api/captcha	{}	{}	200	OK
+INFO 2026-02-28 16:28:02,280 middleware_log __call__ 5fd6f6c9946342bb833947501787638c	GET	/api/districts	{'parent': ['86']}	{}	200	OK
+INFO 2026-02-28 16:28:58,103 middleware_log __call__ 5fd6f6c9946342bb833947501787638c	POST	/user/register1	{}	{'csrfmiddlewaretoken': ['NsbQGLPDq452WcMg3NJ9n7oAw1Slc0qYjE19V9zZXRbe5DHbrhxtMIYqZwsfb2dq'], 'user_name': ['bysj'], 'user_mail': ['1234567890@qq.com'], 'user_phone': ['15688883929'], 'sex': ['2'], 'user_passwd': ['123456a', '123456a'], 'randCode': ['CEMR']}	200	OK
+INFO 2026-02-28 16:28:58,423 middleware_log __call__ 5fd6f6c9946342bb833947501787638c	POST	/api/email_vail	{'type': ['1']}	{'email': ['1234567890@qq.com'], 'csrfmiddlewaretoken': ['NsbQGLPDq452WcMg3NJ9n7oAw1Slc0qYjE19V9zZXRbe5DHbrhxtMIYqZwsfb2dq']}	200	OK
+INFO 2026-02-28 16:29:06,305 middleware_log __call__ 5fd6f6c9946342bb833947501787638c	POST	/user/register2	{}	{'csrfmiddlewaretoken': ['NsbQGLPDq452WcMg3NJ9n7oAw1Slc0qYjE19V9zZXRbe5DHbrhxtMIYqZwsfb2dq'], 'user_mail': ['1234567890@qq.com'], 'emailCode': ['973824']}	200	OK
+INFO 2026-02-28 16:45:09,387 middleware_log __call__ 5fd6f6c9946342bb833947501787638c	POST	/user/login	{}	{'csrfmiddlewaretoken': ['Mik6er4IRintmzQoUwPg0Z4P394TLYTriuaptPO4o5tFv0Lji0DApAEFwEENK0GT'], 'username': ['ghzz'], 'password': ['123456']}	200	OK
+INFO 2026-02-28 16:45:11,377 middleware_log __call__ 5fd6f6c9946342bb833947501787638c	POST	/user/login	{}	{'csrfmiddlewaretoken': ['Mik6er4IRintmzQoUwPg0Z4P394TLYTriuaptPO4o5tFv0Lji0DApAEFwEENK0GT'], 'username': ['ghzz'], 'password': ['123456a']}	200	OK
+INFO 2026-02-28 16:45:15,598 middleware_log __call__ 4af814e442694bd0b5c65d47fa3426f4	GET	/search.html	{'type': ['all'], 's': ['无双']}	{}	200	OK
+INFO 2026-02-28 16:45:15,643 middleware_log __call__ 4af814e442694bd0b5c65d47fa3426f4	GET	/search.html	{}	{}	200	OK
+INFO 2026-02-28 16:45:21,931 middleware_log __call__ 4af814e442694bd0b5c65d47fa3426f4	GET	/	{}	{}	200	OK
+INFO 2026-02-28 16:45:39,568 middleware_log __call__ 4af814e442694bd0b5c65d47fa3426f4	GET	/movie.html	{'id': ['26609310']}	{}	200	OK
+INFO 2026-02-28 16:48:59,701 middleware_log __call__ 4af814e442694bd0b5c65d47fa3426f4	GET	/	{}	{}	200	OK
+INFO 2026-02-28 16:56:05,086 middleware_log __call__ 4af814e442694bd0b5c65d47fa3426f4	GET	/movie.html	{'id': ['30453095']}	{}	200	OK
+INFO 2026-02-28 16:56:16,936 middleware_log __call__ 4af814e442694bd0b5c65d47fa3426f4	GET	/userCollection.html	{}	{}	200	OK
+INFO 2026-02-28 16:56:19,209 middleware_log __call__ 4af814e442694bd0b5c65d47fa3426f4	GET	/userComment.html	{}	{}	200	OK
+INFO 2026-02-28 16:56:37,104 middleware_log __call__ 4af814e442694bd0b5c65d47fa3426f4	POST	/movie/movie_comment	{}	{'csrfmiddlewaretoken': ['Rnk7HBT80KSql3RKX1nOw5T0alxfwr4vnzaqWZDuxxYCuuMFlvb8VGtQDQ79vtRX'], 'movie_id': ['30453095'], 'movie_title': ['言语如苏打般涌现'], 'title': ['主题'], 'content_text': ['内容精彩']}	200	OK
+INFO 2026-02-28 16:56:37,187 middleware_log __call__ 4af814e442694bd0b5c65d47fa3426f4	GET	/user/user_img/3/	{}	{}	200	OK
+INFO 2026-02-28 16:57:38,806 middleware_log __call__ 4af814e442694bd0b5c65d47fa3426f4	GET	/search.html	{'type': ['all'], 's': ['齐天大圣']}	{}	200	OK
+INFO 2026-02-28 16:57:50,367 middleware_log __call__ 4af814e442694bd0b5c65d47fa3426f4	GET	/search.html	{'type': ['all'], 's': ['大闹']}	{}	200	OK

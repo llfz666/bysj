@@ -1,0 +1,45 @@
+<html lang="zh-cn">
+<head>
+    <title>专属推荐 - L影院</title>
+    {% include "include/head.html" %}
+</head>
+<body class="home">
+    {% include "include/nav.html" %}
+    <div id="main" style="padding-top: 20px; min-height: 600px;">
+        <div class="mikd">
+            <div class="mi_btcon">
+                <div class="bt_tit mi_ne_kd">
+                    <h2><a href="javascript:void(0);">为您定制的个性化推荐 (基于Spark协同过滤)</a></h2>
+                </div>
+                <div class="bt_img mi_ne_kd leibox">
+                    <ul class="movie-card-list">
+                    {% for movie in data.recommend_list %}
+                        <li class="movie-card-item">
+                            <div class="movie-card">
+                                <a href="/movie.html?id={{ movie.movie_id }}" target="_blank" class="movie-card-link">
+                                    <div class="movie-card-poster">
+                                        <img class="movie-card-img" src="/api/img_proxy?url={{ movie.movie_photo }}" alt="{{ movie.movie_name }}" loading="lazy">
+                                    </div>
+                                    <div class="movie-card-info">
+                                        <h3 class="movie-card-title" title="{{ movie.movie_name }}">{{ movie.movie_name }}</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    {% empty %}
+                        <div style="text-align: center; padding: 50px; width: 100%;">
+                            <p>暂无个性化推荐结果。原因可能是：</p>
+                            <p>1. 您是新用户，系统还没有您的行为日志；</p>
+                            <p>2. Spark 计算任务尚未运行或数据未同步。</p>
+                        </div>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include "include/footer.html" %}
+</body>
+</html>
+
+

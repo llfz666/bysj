@@ -1,0 +1,62 @@
+2026-02-24 12:18:49,252 FuncName:run_with_reloader LINE:637 [INFO]- Watching for file changes with StatReloader
+2026-02-24 12:18:55,928 FuncName:handle_error LINE:75 [INFO]- - Broken pipe from ('127.0.0.1', 54704)
+
+2026-02-24 12:18:58,649 FuncName:log_message LINE:161 [INFO]- "GET / HTTP/1.1" 200 398502
+2026-02-24 12:18:58,674 FuncName:log_message LINE:161 [INFO]- "GET /static/js/js.js HTTP/1.1" 304 0
+2026-02-24 12:18:58,674 FuncName:log_message LINE:161 [INFO]- "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+2026-02-24 12:18:58,712 FuncName:log_message LINE:161 [INFO]- "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+2026-02-24 12:18:58,757 FuncName:log_message LINE:161 [INFO]- "GET /static/images/icon1.ico?v=888 HTTP/1.1" 304 0
+2026-02-24 12:18:58,908 FuncName:log_message LINE:161 [INFO]- "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+2026-02-24 12:18:58,913 FuncName:log_message LINE:161 [INFO]- "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+2026-02-24 12:19:05,936 FuncName:log_message LINE:161 [INFO]- "GET /movie.html?id=1291546 HTTP/1.1" 200 201782
+2026-02-24 12:19:05,956 FuncName:log_message LINE:161 [INFO]- "GET /static/js/movie.js?v=20240501 HTTP/1.1" 304 0
+2026-02-24 12:21:14,347 FuncName:log_message LINE:161 [INFO]- "POST /user/login HTTP/1.1" 200 138
+2026-02-24 12:21:18,612 FuncName:handle_error LINE:75 [INFO]- - Broken pipe from ('127.0.0.1', 54724)
+
+2026-02-24 12:21:18,617 FuncName:log_message LINE:161 [INFO]- "GET /? HTTP/1.1" 200 467621
+2026-02-24 12:21:21,307 FuncName:log_message LINE:161 [INFO]- "GET /static/images/icon1.ico HTTP/1.1" 304 0
+2026-02-24 12:21:28,313 FuncName:log_message LINE:161 [INFO]- "GET /movie.html?id=26577050 HTTP/1.1" 200 278335
+2026-02-24 12:22:17,291 FuncName:log_message LINE:161 [INFO]- "GET / HTTP/1.1" 200 465692
+2026-02-24 12:22:27,220 FuncName:log_message LINE:161 [INFO]- "GET /userCollection.html HTTP/1.1" 200 285250
+2026-02-24 12:22:33,541 FuncName:log_message LINE:161 [INFO]- "GET / HTTP/1.1" 200 465693
+2026-02-24 12:29:10,330 FuncName:trigger_reload LINE:251 [INFO]- E:\PyCharm Community Edition 2023.1.2\BiSheServer-master\BiShe\views.py changed, reloading.
+2026-02-24 12:29:12,091 FuncName:run_with_reloader LINE:637 [INFO]- Watching for file changes with StatReloader
+2026-02-24 12:31:03,274 FuncName:trigger_reload LINE:251 [INFO]- E:\PyCharm Community Edition 2023.1.2\BiSheServer-master\BiShe\views.py changed, reloading.
+2026-02-24 12:31:05,206 FuncName:run_with_reloader LINE:637 [INFO]- Watching for file changes with StatReloader
+2026-02-24 12:31:37,786 FuncName:log_message LINE:161 [INFO]- "GET /movie.html?id=30309318 HTTP/1.1" 200 287328
+2026-02-24 12:36:19,486 FuncName:trigger_reload LINE:251 [INFO]- E:\PyCharm Community Edition 2023.1.2\BiSheServer-master\api\movie_api.py changed, reloading.
+2026-02-24 12:36:21,241 FuncName:run_with_reloader LINE:637 [INFO]- Watching for file changes with StatReloader
+2026-02-24 12:36:34,434 FuncName:log_message LINE:161 [INFO]- "GET /movie.html?id=30309318 HTTP/1.1" 200 287126
+2026-02-24 12:36:36,070 FuncName:log_message LINE:161 [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2026-02-24 12:36:54,522 FuncName:log_message LINE:161 [INFO]- "GET / HTTP/1.1" 200 496043
+2026-02-24 12:43:43,064 FuncName:run_with_reloader LINE:637 [INFO]- Watching for file changes with StatReloader
+2026-02-24 12:43:48,696 FuncName:log_message LINE:161 [INFO]- "GET / HTTP/1.1" 200 375490
+2026-02-24 12:43:48,735 FuncName:log_message LINE:161 [INFO]- "GET /static/css/smohan.face.css HTTP/1.1" 200 2786
+2026-02-24 12:43:48,740 FuncName:log_message LINE:161 [INFO]- "GET /static/css/bootstrap.css HTTP/1.1" 200 104190
+2026-02-24 12:43:48,740 FuncName:log_message LINE:161 [INFO]- "GET /static/css/style.css HTTP/1.1" 200 25966
+2026-02-24 12:43:48,740 FuncName:log_message LINE:161 [INFO]- "GET /static/css/default.css HTTP/1.1" 200 25501
+2026-02-24 12:43:48,740 FuncName:log_message LINE:161 [INFO]- "GET /static/js/jquery.base64.min.js HTTP/1.1" 200 1782
+2026-02-24 12:43:48,740 FuncName:log_message LINE:161 [INFO]- "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3121
+2026-02-24 12:43:48,745 FuncName:log_message LINE:161 [INFO]- "GET /static/js/jquery.min.js HTTP/1.1" 200 88152
+2026-02-24 12:43:48,745 FuncName:log_message LINE:161 [INFO]- "GET /static/js/js.js HTTP/1.1" 200 12325
+2026-02-24 12:43:48,745 FuncName:log_message LINE:161 [INFO]- "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 11275
+2026-02-24 12:43:48,750 FuncName:log_message LINE:161 [INFO]- "GET /static/css/semantic.min.css HTTP/1.1" 200 1353496
+2026-02-24 12:43:48,760 FuncName:log_message LINE:161 [INFO]- "GET /static/css/font-awesome.min.css HTTP/1.1" 200 27448
+2026-02-24 12:43:48,765 FuncName:log_message LINE:161 [INFO]- "GET /static/images/focus/4136f145453342.jpg HTTP/1.1" 200 305332
+2026-02-24 12:43:48,765 FuncName:log_message LINE:161 [INFO]- "GET /static/images/focus/09480d8b63c479.jpg HTTP/1.1" 200 401637
+2026-02-24 12:43:48,775 FuncName:log_message LINE:161 [INFO]- "GET /static/images/scrollup.png HTTP/1.1" 200 583
+2026-02-24 12:43:48,775 FuncName:log_message LINE:161 [INFO]- "GET /static/images/focus/04ec08f97e9773.jpg HTTP/1.1" 200 537539
+2026-02-24 12:43:48,785 FuncName:log_message LINE:161 [INFO]- "GET /static/js/footer.js HTTP/1.1" 200 1342
+2026-02-24 12:43:48,785 FuncName:log_message LINE:161 [INFO]- "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11479
+2026-02-24 12:43:49,300 FuncName:log_message LINE:161 [INFO]- "GET /static/images/log_ic01.png HTTP/1.1" 200 1158
+2026-02-24 12:43:49,305 FuncName:log_message LINE:161 [INFO]- "GET /static/images/log_ic02.png HTTP/1.1" 200 1143
+2026-02-24 12:43:49,330 FuncName:log_message LINE:161 [INFO]- "GET /static/images/slider.png HTTP/1.1" 200 53475
+2026-02-24 12:43:49,335 FuncName:log_message LINE:161 [INFO]- "GET /static/images/icon1.ico?v=888 HTTP/1.1" 200 21229
+2026-02-24 12:43:49,415 FuncName:log_message LINE:161 [INFO]- "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2026-02-24 12:43:49,415 FuncName:log_message LINE:161 [INFO]- "GET /static/css/fonts/outline-icons.woff2 HTTP/1.1" 200 13576
+2026-02-24 12:43:49,420 FuncName:log_message LINE:161 [INFO]- "GET /static/css/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1" 200 66624
+2026-02-24 12:43:49,435 FuncName:log_message LINE:161 [INFO]- "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 3531
+2026-02-24 12:44:15,866 FuncName:log_message LINE:161 [INFO]- "GET / HTTP/1.1" 200 463164
+2026-02-24 12:45:55,666 FuncName:log_message LINE:161 [INFO]- "GET /movie.html?id=30309318 HTTP/1.1" 200 250137
+2026-02-24 12:46:02,878 FuncName:log_message LINE:161 [INFO]- "GET /movie.html?id=30135039 HTTP/1.1" 200 259714
+2026-02-24 12:46:06,917 FuncName:log_message LINE:161 [INFO]- "GET /movie.html?id=1944903 HTTP/1.1" 200 251464

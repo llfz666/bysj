@@ -1,0 +1,108 @@
+INFO 2026-05-19 11:52:16,711 middleware_log __call__ ac08e29b3edf4571891b4bfea49293b1	GET	/	{}	{}	200	OK
+INFO 2026-05-19 11:52:33,122 middleware_log __call__ ac08e29b3edf4571891b4bfea49293b1	GET	/	{}	{}	200	OK
+INFO 2026-05-19 11:52:44,941 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	GET	/	{}	{}	200	OK
+INFO 2026-05-19 11:52:50,377 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	GET	/	{}	{}	200	OK
+INFO 2026-05-19 11:53:16,304 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/user/login	{}	{'csrfmiddlewaretoken': ['HqMI1Rz6oqsBzh1G0newPvjJKP4HM1epdCC1gfjsVdyNIIWBoR2Qe6TzdkEBL31R'], 'username': ['张三'], 'password': ['123456']}	200	OK
+INFO 2026-05-19 11:53:25,771 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/user/login	{}	{'csrfmiddlewaretoken': ['HqMI1Rz6oqsBzh1G0newPvjJKP4HM1epdCC1gfjsVdyNIIWBoR2Qe6TzdkEBL31R'], 'username': ['ghzzz'], 'password': ['123456']}	200	OK
+INFO 2026-05-19 11:53:27,116 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	GET	/forgetPwd.html	{}	{}	200	OK
+INFO 2026-05-19 11:53:27,221 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	GET	/api/captcha	{}	{}	200	OK
+INFO 2026-05-19 11:53:37,319 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/user/fget	{'step': ['1']}	{'csrfmiddlewaretoken': ['KJoWtuJdCDytYVh587QczgftL1jJJjsbgVefIStz9qEF7mc0wBEwYRPjewTDIlfD'], 'user_name': ['ghzzzz'], 'randCode': ['lq7b']}	200	OK
+INFO 2026-05-19 11:53:41,419 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/user/fget	{'step': ['1']}	{'csrfmiddlewaretoken': ['KJoWtuJdCDytYVh587QczgftL1jJJjsbgVefIStz9qEF7mc0wBEwYRPjewTDIlfD'], 'user_name': ['ghzzz'], 'randCode': ['lq7b']}	200	OK
+INFO 2026-05-19 11:53:45,716 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/user/fget	{'step': ['1']}	{'csrfmiddlewaretoken': ['KJoWtuJdCDytYVh587QczgftL1jJJjsbgVefIStz9qEF7mc0wBEwYRPjewTDIlfD'], 'user_name': ['ghzz'], 'randCode': ['lq7b']}	200	OK
+INFO 2026-05-19 11:53:48,857 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	GET	/api/captcha	{'0.8833712540039493': ['']}	{}	200	OK
+INFO 2026-05-19 11:53:53,691 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/user/fget	{'step': ['1']}	{'csrfmiddlewaretoken': ['KJoWtuJdCDytYVh587QczgftL1jJJjsbgVefIStz9qEF7mc0wBEwYRPjewTDIlfD'], 'user_name': ['ghzzz'], 'randCode': ['elbn']}	200	OK
+INFO 2026-05-19 11:55:44,351 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	GET	/forgetPwd.html	{}	{}	200	OK
+INFO 2026-05-19 11:55:44,456 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	GET	/api/captcha	{}	{}	200	OK
+INFO 2026-05-19 11:55:51,275 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/user/fget	{'step': ['1']}	{'csrfmiddlewaretoken': ['yRNEPLZrenLmtvx8dl7mQaq2DyVo98QE43DX49JNLaRyCWs3BPVGfL0S63vi8aD6'], 'user_name': ['ghzz'], 'randCode': ['qujq']}	200	OK
+INFO 2026-05-19 11:56:01,633 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/api/email_vail	{'type': ['2']}	{'email': ['220653632727@qq.com'], 'csrfmiddlewaretoken': ['yRNEPLZrenLmtvx8dl7mQaq2DyVo98QE43DX49JNLaRyCWs3BPVGfL0S63vi8aD6']}	200	OK
+INFO 2026-05-19 11:56:11,055 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/api/email_vail	{'type': ['2']}	{'email': ['220653632727@qq.com'], 'csrfmiddlewaretoken': ['yRNEPLZrenLmtvx8dl7mQaq2DyVo98QE43DX49JNLaRyCWs3BPVGfL0S63vi8aD6']}	200	OK
+INFO 2026-05-19 11:56:12,199 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/api/email_vail	{'type': ['2']}	{'email': ['220653632727@qq.com'], 'csrfmiddlewaretoken': ['yRNEPLZrenLmtvx8dl7mQaq2DyVo98QE43DX49JNLaRyCWs3BPVGfL0S63vi8aD6']}	200	OK
+INFO 2026-05-19 11:56:12,337 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/api/email_vail	{'type': ['2']}	{'email': ['220653632727@qq.com'], 'csrfmiddlewaretoken': ['yRNEPLZrenLmtvx8dl7mQaq2DyVo98QE43DX49JNLaRyCWs3BPVGfL0S63vi8aD6']}	200	OK
+INFO 2026-05-19 11:56:12,537 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/api/email_vail	{'type': ['2']}	{'email': ['220653632727@qq.com'], 'csrfmiddlewaretoken': ['yRNEPLZrenLmtvx8dl7mQaq2DyVo98QE43DX49JNLaRyCWs3BPVGfL0S63vi8aD6']}	200	OK
+INFO 2026-05-19 11:56:12,994 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/api/email_vail	{'type': ['2']}	{'email': ['220653632727@qq.com'], 'csrfmiddlewaretoken': ['yRNEPLZrenLmtvx8dl7mQaq2DyVo98QE43DX49JNLaRyCWs3BPVGfL0S63vi8aD6']}	200	OK
+INFO 2026-05-19 11:56:21,054 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/api/email_vail	{'type': ['2']}	{'email': ['2206536327@qq.com'], 'csrfmiddlewaretoken': ['yRNEPLZrenLmtvx8dl7mQaq2DyVo98QE43DX49JNLaRyCWs3BPVGfL0S63vi8aD6']}	200	OK
+INFO 2026-05-19 11:56:32,885 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	GET	/forgetPwd.html	{}	{}	200	OK
+INFO 2026-05-19 11:56:32,993 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	GET	/api/captcha	{}	{}	200	OK
+INFO 2026-05-19 11:56:38,911 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/user/fget	{'step': ['1']}	{'csrfmiddlewaretoken': ['pXE1TY5MGQcD6335Gx19OgnRQtUeqf5wV9uk8mP8dDiPfuY041PtdRXHjYu8phSY'], 'user_name': ['ghzz'], 'randCode': ['cpay']}	200	OK
+INFO 2026-05-19 11:56:48,975 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/api/email_vail	{'type': ['2']}	{'email': ['2206536327@qq.com'], 'csrfmiddlewaretoken': ['pXE1TY5MGQcD6335Gx19OgnRQtUeqf5wV9uk8mP8dDiPfuY041PtdRXHjYu8phSY']}	200	OK
+INFO 2026-05-19 11:56:53,252 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/user/fget	{'step': ['2']}	{'csrfmiddlewaretoken': ['pXE1TY5MGQcD6335Gx19OgnRQtUeqf5wV9uk8mP8dDiPfuY041PtdRXHjYu8phSY'], 'user_mail': ['2206536327@qq.com'], 'emailCode': ['160439']}	200	OK
+INFO 2026-05-19 11:57:04,916 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/user/fget	{'step': ['3']}	{'csrfmiddlewaretoken': ['pXE1TY5MGQcD6335Gx19OgnRQtUeqf5wV9uk8mP8dDiPfuY041PtdRXHjYu8phSY'], 'user_passwd': ['123456a']}	200	OK
+INFO 2026-05-19 11:57:08,215 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	GET	/index.html	{}	{}	200	OK
+INFO 2026-05-19 11:57:33,282 middleware_log __call__ 4e51fd685b0c4e6bbf0000754248036f	POST	/user/login	{}	{'csrfmiddlewaretoken': ['nPVJzctaTMI70xhprljNaZ73jPlnj8d2T1L2OAdwqzOj9YckPP77zAHTMkVhia0u'], 'username': ['ghzz'], 'password': ['123456a']}	200	OK
+INFO 2026-05-19 11:57:37,828 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/index.html	{}	{}	200	OK
+INFO 2026-05-19 11:57:37,930 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/index.html	{}	{}	200	OK
+INFO 2026-05-19 11:57:42,773 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/index.html	{}	{}	200	OK
+INFO 2026-05-19 11:57:46,732 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/movie.html	{'id': ['30286713']}	{}	200	OK
+INFO 2026-05-19 11:58:02,556 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/userInfo.html	{}	{}	200	OK
+INFO 2026-05-19 11:58:02,817 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/api/districts	{'parent': ['86']}	{}	200	OK
+INFO 2026-05-19 11:58:05,912 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/modifyEmail.html	{}	{}	200	OK
+INFO 2026-05-19 11:58:06,034 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/api/captcha	{}	{}	200	OK
+INFO 2026-05-19 11:58:07,879 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/userComment.html	{}	{}	200	OK
+INFO 2026-05-19 11:58:08,023 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/user/user_img/3/	{}	{}	200	OK
+INFO 2026-05-19 11:58:10,140 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/userInfo.html	{}	{}	200	OK
+INFO 2026-05-19 11:58:10,368 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/api/districts	{'parent': ['86']}	{}	200	OK
+INFO 2026-05-19 11:58:12,717 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/	{}	{}	200	OK
+INFO 2026-05-19 12:00:06,432 middleware_log __call__ f204b892d1bd4fccb8316f244bc045d6	GET	/	{}	{}	200	OK
+INFO 2026-05-19 12:16:49,480 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/search.html	{'type': ['tag'], 's': ['动画']}	{}	200	OK
+INFO 2026-05-19 12:16:55,616 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/	{}	{}	200	OK
+INFO 2026-05-19 12:20:11,844 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/user/logout	{}	{}	200	OK
+INFO 2026-05-19 12:20:14,352 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	GET	/	{}	{}	200	OK
+INFO 2026-05-19 12:20:26,743 middleware_log __call__ ef7f90448ee14181b2df3459e3159f34	POST	/user/login	{}	{'csrfmiddlewaretoken': ['Bg0nr2DX42pN2ywJ8sNZXdQPD5VBA7wj7sQGGqnjBPvZbZrEwWBjmOqF6Avvz9jL'], 'username': ['ghzz'], 'password': ['123456a']}	200	OK
+INFO 2026-05-19 12:20:29,727 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/	{}	{}	200	OK
+INFO 2026-05-19 12:20:29,912 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/	{}	{}	200	OK
+INFO 2026-05-19 12:56:22,150 middleware_log __call__ ac08e29b3edf4571891b4bfea49293b1	GET	/	{}	{}	200	OK
+INFO 2026-05-19 12:56:30,870 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/	{}	{}	200	OK
+INFO 2026-05-19 12:57:04,449 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/	{}	{}	200	OK
+INFO 2026-05-19 12:57:14,017 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/recommend.html	{}	{}	200	OK
+INFO 2026-05-19 12:57:17,663 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/index.html	{}	{}	200	OK
+INFO 2026-05-19 12:59:09,315 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/	{}	{}	200	OK
+INFO 2026-05-19 13:14:40,500 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/	{}	{}	200	OK
+INFO 2026-05-19 13:38:16,644 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/	{}	{}	200	OK
+INFO 2026-05-19 13:38:43,611 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/	{}	{}	200	OK
+INFO 2026-05-19 13:39:19,563 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/	{}	{}	200	OK
+INFO 2026-05-19 13:40:05,596 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/	{}	{}	200	OK
+INFO 2026-05-19 13:40:11,003 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/movie.html	{'id': ['30335059']}	{}	200	OK
+INFO 2026-05-19 13:48:54,657 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/	{}	{}	200	OK
+INFO 2026-05-19 13:48:55,567 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2503231084.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:55,647 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2592093348.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:55,650 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1962998531.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:55,656 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2532084061.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:55,680 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2537825587.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:55,707 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2257995361.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:55,885 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2567214398.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:55,892 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p511118051.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:55,898 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p465939041.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:55,909 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2562562391.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:55,916 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2570059839.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,026 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2516955655.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,067 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2561673444.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,151 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557404119.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,157 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2497633150.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,175 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792443418.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,213 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2563752286.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,289 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2560623083.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,307 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,372 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2562107493.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,388 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2588363314.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,450 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2581570053.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,537 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2556695236.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,607 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2574212754.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,614 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2541035591.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,618 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2560738988.jpg']}	{}	404	Not Found
+INFO 2026-05-19 13:48:56,651 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2565920563.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,755 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2397258764.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,801 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2548872045.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,871 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2551186897.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,873 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2588123907.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,875 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2549159523.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:56,881 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-19 13:48:57,030 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1505392928.jpg']}	{}	200	OK
+INFO 2026-05-19 13:48:57,053 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2289885277.jpg']}	{}	200	OK
+INFO 2026-05-19 13:52:29,290 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/movie.html	{'id': ['1291546']}	{}	200	OK
+INFO 2026-05-19 13:52:29,849 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2527725378.jpg']}	{}	200	OK
+INFO 2026-05-19 13:52:29,860 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2560738988.jpg']}	{}	404	Not Found
+INFO 2026-05-19 13:52:29,890 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2527744011.jpg']}	{}	200	OK
+INFO 2026-05-19 13:52:29,938 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1810989198.jpg']}	{}	200	OK
+INFO 2026-05-19 13:52:30,048 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2192306736.jpg']}	{}	200	OK
+INFO 2026-05-19 13:52:30,143 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2502840643.jpg']}	{}	200	OK
+INFO 2026-05-19 13:52:40,968 middleware_log __call__ e9f6a363c63b40e5b54dbf4a7ec31ab4	GET	/recommend.html	{}	{}	200	OK
