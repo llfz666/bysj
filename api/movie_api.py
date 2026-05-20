@@ -708,6 +708,32 @@ class Movie:
 
         return result[:top_n]
 
+    @staticmethod
+    def _extract_image_small(movie_dict):
+        """
+        从电影字典中提取 small 图片URL
+        将 images 字段（JSON字符串）转换为可直接使用的图片URL
+        """
+        images_raw = movie_dict.get("images", "")
+        if not images_raw:
+            return movie_dict
+        try:
+            import json as _json
+            # 尝试标准JSON解析
+            images_obj = _json.loads(images_raw)
+        except Exception:
+            try:
+                # 尝试Python字典格式（单引号）
+                import ast as _ast
+                images_obj = _ast.literal_eval(images_raw)
+            except Exception:
+                return movie_dict
+        if isinstance(images_obj, dict):
+            small_url = images_obj.get("small", "")
+            if small_url:
+                movie_dict["images"] = small_url
+        return movie_dict
+
     def get_realtime_recommend_grouped(self, user_id, per_type=5):
         """
         按类型分组的实时推荐（用于推荐页面按类型展示）
@@ -720,7 +746,10 @@ class Movie:
             for tag in default_types:
                 movies = CollectMovieDB.objects.filter(genres__contains=tag)\
                     .order_by("-ratings_count")[:per_type]
-                result.append({"tag": tag, "movies": queryset_to_json(movies)})
+                movie_list = queryset_to_json(movies)
+                for m in movie_list:
+                    self._extract_image_small(m)
+                result.append({"tag": tag, "movies": movie_list})
             return result
 
         seen_ids = self.get_user_seen_movie_ids(user_id)
@@ -731,9 +760,13 @@ class Movie:
             movies = CollectMovieDB.objects.filter(genres__contains=tag)\
                 .exclude(movie_id__in=seen_ids)\
                 .order_by("-ratings_count")[:per_type]
-            result.append({"tag": tag, "movies": queryset_to_json(movies)})
+            movie_list = queryset_to_json(movies)
+            for m in movie_list:
+                self._extract_image_small(m)
+            result.append({"tag": tag, "movies": movie_list})
 
         return result
+
 
     def clear_user_recommend_cache(self, user_id):
         """

@@ -237,15 +237,17 @@ function movie_show(show_movie_data, show_movie_id) {
             movie_like = "movie_like_cs";
         }
 
-        let raw_image = strToJson(show_movie_data[j].images).small;
-        image = "/api/img_proxy?url=" + raw_image;
-        title = show_movie_data[j].title;
-        year = show_movie_data[j].year;
-        countries = strToJson(show_movie_data[j].countries)[0];
-        language = strToJson(show_movie_data[j].languages)[0];
-        tag = strToJson(show_movie_data[j].tags)[0];
-        rating = strToJson(show_movie_data[j].rating).average;
-        actor = strToJson(show_movie_data[j].actor.replaceAll("None", "''"));
+        let raw_image = (strToJson(show_movie_data[j].images) || {}).small || "";
+        image = raw_image ? "/api/img_proxy?url=" + raw_image : "";
+        title = show_movie_data[j].title || "";
+        year = show_movie_data[j].year || "";
+        countries = (strToJson(show_movie_data[j].countries) || [])[0] || "";
+        language = (strToJson(show_movie_data[j].languages) || [])[0] || "";
+        tag = (strToJson(show_movie_data[j].tags) || [])[0] || "";
+        rating = (strToJson(show_movie_data[j].rating) || {}).average || "";
+        let actorStr = show_movie_data[j].actor || "";
+        actor = strToJson(actorStr.replaceAll("None", "''"));
+
         actors = "";
         for (let k = 0; k < actor.length; k++) {
             actors = actors + actor[k].name + "，";

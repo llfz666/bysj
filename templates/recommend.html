@@ -25,7 +25,8 @@
                                 <div class="movie-card">
                                     <a href="/movie.html?id={{ movie.movie_id }}" target="_blank" class="movie-card-link">
                                         <div class="movie-card-poster">
-                                            <img class="movie-card-img" src="/api/img_proxy?url={{ movie.movie_photo }}" alt="{{ movie.title }}" loading="lazy">
+                                            <img class="movie-card-img" src="/api/img_proxy?url={{ movie.images }}" alt="{{ movie.title }}" loading="lazy">
+
                                         </div>
                                         <div class="movie-card-info">
                                             <h3 class="movie-card-title" title="{{ movie.title }}">{{ movie.title }}</h3>
