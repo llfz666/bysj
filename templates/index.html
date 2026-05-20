@@ -79,6 +79,7 @@
 
 
             function load_home_recommend() {
+                console.log("[load_home_recommend] 开始加载推荐...");
                 $("#home_realtime_recommend_list").html('<div style="text-align: center; padding: 50px; width: 100%;"><p>加载中...</p></div>');
                 $.ajax({
                     url: "/api/realtime_recommend",
@@ -86,17 +87,29 @@
                     type: "GET",
                     dataType: "json",
                     success: function(res) {
-                        if(res.code == 200 && res.data && res.data.length > 0) {
-                            movie_show(res.data, "home_realtime_recommend_list");
+                        console.log("[load_home_recommend] AJAX成功, res类型:", typeof res, "res:", res);
+                        // 兼容两种返回格式：数组 或 {code:200, data:[...]}
+                        let movieList = null;
+                        if (Array.isArray(res)) {
+                            movieList = res;
+                        } else if (res.code == 200 && res.data) {
+                            movieList = res.data;
+                        }
+                        if (movieList && movieList.length > 0) {
+                            console.log("[load_home_recommend] 数据条数:", movieList.length, "第一条images:", movieList[0].images);
+                            movie_show(movieList, "home_realtime_recommend_list");
                         } else {
+                            console.log("[load_home_recommend] 数据为空");
                             $("#home_realtime_recommend_list").html('<div style="text-align: center; padding: 50px; width: 100%;"><p>暂无推荐结果</p></div>');
                         }
                     },
-                    error: function() {
+                    error: function(xhr, status, error) {
+                        console.error("[load_home_recommend] AJAX失败:", status, error);
                         $("#home_realtime_recommend_list").html('<div style="text-align: center; padding: 50px; width: 100%;"><p>加载失败</p></div>');
                     }
                 });
             }
+
         </script>
 
         {% include "include/footer.html" %}

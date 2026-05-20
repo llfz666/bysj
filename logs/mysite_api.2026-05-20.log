@@ -62,3 +62,143 @@ INFO 2026-05-20 20:32:07,992 middleware_log __call__ 2026af14f55848fca640339a8d2
 INFO 2026-05-20 20:32:08,074 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
 INFO 2026-05-20 20:32:09,049 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
 INFO 2026-05-20 20:32:09,294 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:49:38,785 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/	{}	{}	200	OK
+INFO 2026-05-20 20:49:39,345 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:49:58,121 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2266968025.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:58,293 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2577340942.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:58,350 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2554006259.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:58,433 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2601707112.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:58,466 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2545034337.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:58,522 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2563760649.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:58,526 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2549916213.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:58,621 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2547965619.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:58,713 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561721372.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:58,748 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2532091294.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:58,775 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2534053378.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:58,840 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p854757687.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:59,053 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/	{}	{}	200	OK
+INFO 2026-05-20 20:49:59,079 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2567277578.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:59,125 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2542182847.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:59,175 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1910909085.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:59,218 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2582953131.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:59,243 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2570125563.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:59,259 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1910909085.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:59,428 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2522464136.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:59,450 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2582953131.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:59,461 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:49:59,481 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:49:59,492 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2570125563.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:59,506 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2371619467.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:59,510 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2542182847.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:59,550 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2522464136.jpg']}	{}	200	OK
+INFO 2026-05-20 20:49:59,558 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:49:59,991 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:00,064 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2371619467.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:00,332 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:00,547 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:00,567 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:00,796 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:01,064 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:01,065 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:01,224 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:01,322 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:01,391 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:01,550 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:01,630 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:01,694 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:01,849 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:01,916 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:02,453 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:02,611 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:02,703 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:03,024 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:03,318 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:05,216 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:05,456 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:05,560 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:05,774 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:05,831 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:06,847 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:07,900 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:13,540 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:13,784 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:14,016 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:14,276 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:14,321 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:14,557 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:37,726 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:37,950 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:38,078 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:38,310 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:38,425 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:38,574 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:38,683 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:38,707 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:38,915 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:39,692 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/	{}	{}	200	OK
+INFO 2026-05-20 20:50:39,860 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:40,038 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:40,075 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:40,611 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:40,834 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:43,359 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/	{}	{}	200	OK
+INFO 2026-05-20 20:50:43,862 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2503231084.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:43,975 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2266968025.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:43,985 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2532084061.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:43,987 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2592093348.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,006 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2554006259.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,196 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2549916213.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,223 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2545034337.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,245 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561721372.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,299 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p854757687.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,309 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1962998531.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,407 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2532091294.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,437 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2257995361.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,513 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2542182847.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,579 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2577340942.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,636 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1910909085.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,661 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2567277578.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,739 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2522464136.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,837 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2570125563.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,847 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2601707112.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,910 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2547965619.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:44,927 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:44,998 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2563760649.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:45,063 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2371619467.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:45,081 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2582953131.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:45,090 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:45,101 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2548872045.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:45,164 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2565920563.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:45,174 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2534053378.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:45,190 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2397258764.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:45,287 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2588123907.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:45,362 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2549159523.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:45,396 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1505392928.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:45,462 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2289885277.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:45,476 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2551186897.jpg']}	{}	200	OK
+INFO 2026-05-20 20:50:45,669 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:47,076 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:47,290 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:47,299 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:47,516 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:47,759 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:47,826 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:48,054 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:50:48,074 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:50:48,329 middleware_log __call__ 2026af14f55848fca640339a8d250bd0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:55:53,920 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/	{}	{}	200	OK
+INFO 2026-05-20 20:55:54,167 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:55:54,457 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:55:54,540 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:55:56,546 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/	{}	{}	200	OK
+INFO 2026-05-20 20:55:56,696 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:55:56,896 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:55:56,991 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:55:58,104 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:55:58,360 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:55:58,530 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:55:58,754 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:55:58,848 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/realtime_recommend	{'top_n': ['10']}	{}	200	OK
+INFO 2026-05-20 20:55:59,060 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:56:03,311 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg']}	{}	404	Not Found
+INFO 2026-05-20 20:56:04,444 middleware_log __call__ cb2ba936a4164c64ba095b662f8648e0	GET	/api/img_proxy	{'url': ['https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg']}	{}	404	Not Found

@@ -69,3 +69,177 @@
 2026-05-20 20:32:09,301 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
 2026-05-20 20:44:08,424 FuncName:trigger_reload LINE:251 [INFO]- E:\PyCharm Community Edition 2023.1.2\BiSheServer-master\api\movie_api.py changed, reloading.
 2026-05-20 20:44:10,029 FuncName:run_with_reloader LINE:637 [INFO]- Watching for file changes with StatReloader
+2026-05-20 20:49:33,948 FuncName:run_with_reloader LINE:637 [INFO]- Watching for file changes with StatReloader
+2026-05-20 20:49:39,088 FuncName:log_message LINE:161 [INFO]- "GET / HTTP/1.1" 200 386691
+2026-05-20 20:49:39,352 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:49:58,127 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2266968025.jpg HTTP/1.1" 200 9525
+2026-05-20 20:49:58,301 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2577340942.jpg HTTP/1.1" 200 31680
+2026-05-20 20:49:58,357 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2554006259.jpg HTTP/1.1" 200 27731
+2026-05-20 20:49:58,439 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2601707112.jpg HTTP/1.1" 200 8174
+2026-05-20 20:49:58,472 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2545034337.jpg HTTP/1.1" 200 20603
+2026-05-20 20:49:58,534 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2563760649.jpg HTTP/1.1" 200 39279
+2026-05-20 20:49:58,538 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2549916213.jpg HTTP/1.1" 200 20654
+2026-05-20 20:49:58,628 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2547965619.jpg HTTP/1.1" 200 31208
+2026-05-20 20:49:58,720 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561721372.jpg HTTP/1.1" 200 23432
+2026-05-20 20:49:58,757 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2532091294.jpg HTTP/1.1" 200 33473
+2026-05-20 20:49:58,782 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2534053378.jpg HTTP/1.1" 200 21862
+2026-05-20 20:49:58,848 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p854757687.jpg HTTP/1.1" 200 17037
+2026-05-20 20:49:59,103 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2567277578.jpg HTTP/1.1" 200 21505
+2026-05-20 20:49:59,114 FuncName:log_message LINE:161 [INFO]- "GET / HTTP/1.1" 200 386687
+2026-05-20 20:49:59,132 FuncName:handle_error LINE:75 [INFO]- - Broken pipe from ('127.0.0.1', 63924)
+
+2026-05-20 20:49:59,182 FuncName:handle_error LINE:75 [INFO]- - Broken pipe from ('127.0.0.1', 63925)
+
+2026-05-20 20:49:59,225 FuncName:handle_error LINE:75 [INFO]- - Broken pipe from ('127.0.0.1', 63922)
+
+2026-05-20 20:49:59,251 FuncName:handle_error LINE:75 [INFO]- - Broken pipe from ('127.0.0.1', 63923)
+
+2026-05-20 20:49:59,347 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1910909085.jpg HTTP/1.1" 200 27892
+2026-05-20 20:49:59,434 FuncName:handle_error LINE:75 [INFO]- - Broken pipe from ('127.0.0.1', 63888)
+
+2026-05-20 20:49:59,458 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2582953131.jpg HTTP/1.1" 200 39094
+2026-05-20 20:49:59,469 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:49:59,487 FuncName:handle_error LINE:75 [INFO]- - Broken pipe from ('127.0.0.1', 63889)
+
+2026-05-20 20:49:59,499 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2570125563.jpg HTTP/1.1" 200 22215
+2026-05-20 20:49:59,517 FuncName:handle_error LINE:75 [INFO]- - Broken pipe from ('127.0.0.1', 63949)
+
+2026-05-20 20:49:59,519 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2542182847.jpg HTTP/1.1" 200 18094
+2026-05-20 20:49:59,558 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2522464136.jpg HTTP/1.1" 200 23233
+2026-05-20 20:49:59,565 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg HTTP/1.1" 404 0
+2026-05-20 20:49:59,998 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:00,070 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2371619467.jpg HTTP/1.1" 200 22394
+2026-05-20 20:50:00,340 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:00,553 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:00,574 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:00,802 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:01,074 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:01,075 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:01,229 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:01,329 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:01,397 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:01,557 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:01,637 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:01,700 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:01,856 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:01,923 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:02,460 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:02,617 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:02,710 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:03,036 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:03,333 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:05,228 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:05,470 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:05,571 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:05,786 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:05,842 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:06,859 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:07,914 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:13,552 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:13,795 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:14,027 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:14,286 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:14,332 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:14,567 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:37,732 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:37,957 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:38,084 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:38,316 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:38,431 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:38,583 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:38,689 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:38,714 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:38,922 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:39,749 FuncName:log_message LINE:161 [INFO]- "GET / HTTP/1.1" 200 386687
+2026-05-20 20:50:39,868 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:40,045 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:40,082 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:40,617 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:40,840 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:43,451 FuncName:log_message LINE:161 [INFO]- "GET / HTTP/1.1" 200 386687
+2026-05-20 20:50:43,481 FuncName:log_message LINE:161 [INFO]- "GET /static/css/smohan.face.css HTTP/1.1" 200 2786
+2026-05-20 20:50:43,482 FuncName:log_message LINE:161 [INFO]- "GET /static/css/default.css HTTP/1.1" 200 25501
+2026-05-20 20:50:43,483 FuncName:log_message LINE:161 [INFO]- "GET /static/css/style.css HTTP/1.1" 200 27069
+2026-05-20 20:50:43,486 FuncName:log_message LINE:161 [INFO]- "GET /static/js/jquery.min.js HTTP/1.1" 200 88152
+2026-05-20 20:50:43,488 FuncName:log_message LINE:161 [INFO]- "GET /static/css/bootstrap.css HTTP/1.1" 200 104190
+2026-05-20 20:50:43,489 FuncName:log_message LINE:161 [INFO]- "GET /static/js/jquery.base64.min.js HTTP/1.1" 200 1782
+2026-05-20 20:50:43,490 FuncName:log_message LINE:161 [INFO]- "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3121
+2026-05-20 20:50:43,491 FuncName:log_message LINE:161 [INFO]- "GET /static/js/js.js HTTP/1.1" 200 13631
+2026-05-20 20:50:43,493 FuncName:log_message LINE:161 [INFO]- "GET /static/css/font-awesome.min.css HTTP/1.1" 200 27448
+2026-05-20 20:50:43,496 FuncName:log_message LINE:161 [INFO]- "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 11275
+2026-05-20 20:50:43,501 FuncName:log_message LINE:161 [INFO]- "GET /static/images/focus/WS_vxZj6Yh.jpg HTTP/1.1" 200 234580
+2026-05-20 20:50:43,511 FuncName:log_message LINE:161 [INFO]- "GET /static/css/semantic.min.css HTTP/1.1" 200 1353496
+2026-05-20 20:50:43,548 FuncName:log_message LINE:161 [INFO]- "GET /static/images/focus/%E6%A5%9A%E9%97%A8%E7%9A%84%E4%B8%96%E7%95%8C_C11c2Nf.png HTTP/1.1" 200 4509163
+2026-05-20 20:50:43,553 FuncName:log_message LINE:161 [INFO]- "GET /static/images/scrollup.png HTTP/1.1" 200 583
+2026-05-20 20:50:43,568 FuncName:log_message LINE:161 [INFO]- "GET /static/js/footer.js HTTP/1.1" 200 1342
+2026-05-20 20:50:43,574 FuncName:log_message LINE:161 [INFO]- "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11479
+2026-05-20 20:50:43,578 FuncName:log_message LINE:161 [INFO]- "GET /static/images/focus/%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A_qsdIyy0.png HTTP/1.1" 200 5315035
+2026-05-20 20:50:43,713 FuncName:log_message LINE:161 [INFO]- "GET /static/images/log_ic01.png HTTP/1.1" 200 1158
+2026-05-20 20:50:43,718 FuncName:log_message LINE:161 [INFO]- "GET /static/images/log_ic02.png HTTP/1.1" 200 1143
+2026-05-20 20:50:43,743 FuncName:log_message LINE:161 [INFO]- "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+2026-05-20 20:50:43,751 FuncName:log_message LINE:161 [INFO]- "GET /static/images/icon1.ico?v=888 HTTP/1.1" 200 21229
+2026-05-20 20:50:43,752 FuncName:log_message LINE:161 [INFO]- "GET /static/images/slider.png HTTP/1.1" 200 53475
+2026-05-20 20:50:43,753 FuncName:log_message LINE:161 [INFO]- "GET /static/css/fonts/fontawesome-webfont.woff2?v=4.5.0 HTTP/1.1" 200 66624
+2026-05-20 20:50:43,873 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2503231084.jpg HTTP/1.1" 200 22531
+2026-05-20 20:50:43,880 FuncName:log_message LINE:161 [INFO]- "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 3531
+2026-05-20 20:50:43,989 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2266968025.jpg HTTP/1.1" 200 9525
+2026-05-20 20:50:44,008 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2532084061.jpg HTTP/1.1" 200 10804
+2026-05-20 20:50:44,017 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2592093348.jpg HTTP/1.1" 200 19667
+2026-05-20 20:50:44,027 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2554006259.jpg HTTP/1.1" 200 27731
+2026-05-20 20:50:44,210 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2549916213.jpg HTTP/1.1" 200 20654
+2026-05-20 20:50:44,235 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2545034337.jpg HTTP/1.1" 200 20603
+2026-05-20 20:50:44,258 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561721372.jpg HTTP/1.1" 200 23432
+2026-05-20 20:50:44,312 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p854757687.jpg HTTP/1.1" 200 17037
+2026-05-20 20:50:44,324 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1962998531.jpg HTTP/1.1" 200 18028
+2026-05-20 20:50:44,419 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2532091294.jpg HTTP/1.1" 200 33473
+2026-05-20 20:50:44,449 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2257995361.jpg HTTP/1.1" 200 14558
+2026-05-20 20:50:44,523 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2542182847.jpg HTTP/1.1" 200 18094
+2026-05-20 20:50:44,590 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2577340942.jpg HTTP/1.1" 200 31680
+2026-05-20 20:50:44,647 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1910909085.jpg HTTP/1.1" 200 27892
+2026-05-20 20:50:44,672 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2567277578.jpg HTTP/1.1" 200 21505
+2026-05-20 20:50:44,750 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2522464136.jpg HTTP/1.1" 200 23233
+2026-05-20 20:50:44,853 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2570125563.jpg HTTP/1.1" 200 22215
+2026-05-20 20:50:44,863 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2601707112.jpg HTTP/1.1" 200 8174
+2026-05-20 20:50:44,923 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2547965619.jpg HTTP/1.1" 200 31208
+2026-05-20 20:50:44,939 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:44,943 FuncName:log_message LINE:161 [INFO]- "GET /static/images/icon1.ico HTTP/1.1" 200 21229
+2026-05-20 20:50:45,013 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2563760649.jpg HTTP/1.1" 200 39279
+2026-05-20 20:50:45,075 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2371619467.jpg HTTP/1.1" 200 22394
+2026-05-20 20:50:45,094 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2582953131.jpg HTTP/1.1" 200 39094
+2026-05-20 20:50:45,112 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:45,121 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2548872045.jpg HTTP/1.1" 200 17399
+2026-05-20 20:50:45,176 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2565920563.jpg HTTP/1.1" 200 32589
+2026-05-20 20:50:45,192 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2534053378.jpg HTTP/1.1" 200 21862
+2026-05-20 20:50:45,206 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2397258764.jpg HTTP/1.1" 200 34927
+2026-05-20 20:50:45,299 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2588123907.jpg HTTP/1.1" 200 22836
+2026-05-20 20:50:45,372 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2549159523.jpg HTTP/1.1" 200 13592
+2026-05-20 20:50:45,407 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1505392928.jpg HTTP/1.1" 200 28428
+2026-05-20 20:50:45,472 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2289885277.jpg HTTP/1.1" 200 15191
+2026-05-20 20:50:45,487 FuncName:log_message LINE:161 [INFO]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2551186897.jpg HTTP/1.1" 200 27732
+2026-05-20 20:50:45,681 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:47,089 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:47,304 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:47,311 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:47,526 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:47,769 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:47,836 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:48,065 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:50:48,085 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:50:48,343 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:55:53,969 FuncName:log_message LINE:161 [INFO]- "GET / HTTP/1.1" 200 386687
+2026-05-20 20:55:53,997 FuncName:log_message LINE:161 [INFO]- "GET /static/js/js.js HTTP/1.1" 304 0
+2026-05-20 20:55:54,179 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:55:54,464 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg HTTP/1.1" 404 0
+2026-05-20 20:55:54,546 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:55:56,641 FuncName:log_message LINE:161 [INFO]- "GET / HTTP/1.1" 200 386688
+2026-05-20 20:55:56,708 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:55:56,910 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg HTTP/1.1" 404 0
+2026-05-20 20:55:57,002 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:55:58,115 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:55:58,371 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:55:58,541 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:55:58,765 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:55:58,858 FuncName:log_message LINE:161 [INFO]- "GET /api/realtime_recommend?top_n=10 HTTP/1.1" 200 72387
+2026-05-20 20:55:59,072 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
+2026-05-20 20:56:03,325 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2155032583.jpg HTTP/1.1" 404 0
+2026-05-20 20:56:04,456 FuncName:log_message LINE:161 [WARNING]- "GET /api/img_proxy?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561716440.jpg HTTP/1.1" 404 0
