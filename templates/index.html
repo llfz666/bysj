@@ -18,6 +18,19 @@
                 let movie_index_tag = {{ data.movie_index_tag|safe|default:"[]" }};
             </script>
             <div class="mikd">
+                <!-- ========== 猜你喜欢（仅登录用户可见） ========== -->
+                <div class="mi_btcon" id="realtime_recommend_section" style="display: none;">
+                    <div class="bt_tit mi_ne_kd">
+                        <h2><a href="javascript:void(0);">猜你喜欢</a><i class="fa"></i></h2>
+                        <a href="javascript:void(0);" onclick="load_home_recommend()" class="moreb">换一批<i class="el-icon-d-arrow-right"></i></a>
+                    </div>
+                    <div class="bt_img mi_ne_kd leibox" id="home_realtime_recommend_list">
+                        <div style="text-align: center; padding: 50px; width: 100%;">
+                            <p>加载中...</p>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="mi_btcon">
                     <div class="bt_tit mi_ne_kd">
                         	<h2><a href="javascript:void(0);">最新电影</a><i class="fa"></i></h2>
@@ -27,6 +40,7 @@
 
                     </div>
                 </div>
+
                 {% for tag in data.movie_index_tag %}
                     <div class="mi_btcon">
                         <div class="bt_tit mi_ne_kd">
@@ -56,7 +70,37 @@
             movie_show(movie_index_tag[2]["data"],"movie_index_tag_3");
             movie_show(movie_index_tag[3]["data"],"movie_index_tag_4");
             movie_show(movie_douban_top,"movie_douban_top");
+
+            // 判断用户是否登录，登录则显示"猜你喜欢"并加载
+            $(document).ready(function() {
+                // 通过检查 user_like 是否存在来判断登录状态（user_like 由 page_nav 传入）
+                if (typeof user_like !== 'undefined' && user_like !== null) {
+                    $("#realtime_recommend_section").show();
+                    load_home_recommend();
+                }
+            });
+
+            function load_home_recommend() {
+                $("#home_realtime_recommend_list").html('<div style="text-align: center; padding: 50px; width: 100%;"><p>加载中...</p></div>');
+                $.ajax({
+                    url: "/api/realtime_recommend",
+                    data: {top_n: 10},
+                    type: "GET",
+                    dataType: "json",
+                    success: function(res) {
+                        if(res.code == 200 && res.data && res.data.length > 0) {
+                            movie_show(res.data, "home_realtime_recommend_list");
+                        } else {
+                            $("#home_realtime_recommend_list").html('<div style="text-align: center; padding: 50px; width: 100%;"><p>暂无推荐结果</p></div>');
+                        }
+                    },
+                    error: function() {
+                        $("#home_realtime_recommend_list").html('<div style="text-align: center; padding: 50px; width: 100%;"><p>加载失败</p></div>');
+                    }
+                });
+            }
         </script>
+
         {% include "include/footer.html" %}
     </body>
 

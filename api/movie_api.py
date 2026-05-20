@@ -1,3 +1,4 @@
+import ast
 import datetime
 import random
 from functools import reduce
@@ -8,13 +9,14 @@ from django.db.models import Q
 from snownlp import SnowNLP
 
 from api import delay_work
-from user.models import UserTag, UserMovieRecommend
+from user.models import UserTag, UserMovieRecommend, UsersDetail
 from .api import Api
 from api.model_json import queryset_to_json
 from movie.models import CollectMovieTypeDB, CollectMovieDB, MovieLikes, MovieRatings, MovieComments, MovieSearchs, \
     MovieBrows, MovieRatingDB, MoviePubdateDB, MovieTagDB
 set_readis = Api().set_readis
 get_readis = Api().get_readis
+delete_readis = Api().delete_readis
 
 
 class Movie:
@@ -541,3 +543,204 @@ class Movie:
         set_readis("user_tag_cai" + "_" + str(user_id) + "_" + str(5), user_movie_tag_cai_rs_json, set_time=60 * 10)
 
         return user_movie_tag_cai_rs_json
+
+    # ==================== 实时推荐系统（不依赖Spark） ====================
+
+    def get_user_seen_movie_ids(self, user_id):
+        """
+        获取用户已交互过的电影ID集合（用于排除已看过的电影）
+        """
+        brows = set(MovieBrows.objects.filter(user_id=user_id).values_list("movie_id", flat=True))
+        likes = set(MovieLikes.objects.filter(user_id=user_id, status=1).values_list("movie_id", flat=True))
+        ratings = set(MovieRatings.objects.filter(user_id=user_id).values_list("movie_id", flat=True))
+        return brows | likes | ratings
+
+    def get_user_top_types(self, user_id, top_n=5):
+        """
+        获取用户权重最高的N个电影类型
+        优先级：UserTag > 用户注册喜好 > 默认类型
+        """
+        # 1. 从 UserTag 取权重最高的类型
+        top_types = list(
+            UserTag.objects.filter(user_id=user_id, tag_type="info_movie_type")
+            .order_by("-tag_weight")
+            .values_list("tag_name", flat=True)[:top_n]
+        )
+        if top_types:
+            return top_types
+
+        # 2. 从用户注册信息取喜好
+        prefer = UsersDetail.objects.filter(user_id_id=user_id).values_list("user_prefer", flat=True).first()
+        if prefer:
+            return prefer.split(",")[:top_n]
+
+        # 3. 默认类型
+        return ["动作", "科幻", "爱情", "喜剧"][:top_n]
+
+    def recommend_by_type(self, user_id, seen_ids, limit=10):
+        """
+        基于用户喜好的电影类型推荐
+        从权重最高的类型中，每个类型取评分最高的几部电影
+        """
+        top_types = self.get_user_top_types(user_id)
+        if not top_types:
+            return []
+
+        result = []
+        seen = set()
+        per_type = max(1, limit // len(top_types))
+
+        for tag in top_types:
+            movies = CollectMovieDB.objects.filter(genres__contains=tag)\
+                .exclude(movie_id__in=seen_ids)\
+                .order_by("-ratings_count")[:per_type * 3]  # 多取一些用于随机
+
+            for m in movies:
+                mid = m.movie_id
+                if mid not in seen:
+                    seen.add(mid)
+                    result.append(m)
+                    if len([x for x in result if isinstance(x, CollectMovieDB)]) >= per_type:
+                        break
+
+        # 随机打乱，增加多样性
+        random.shuffle(result)
+        return queryset_to_json(result[:limit])
+
+    def recommend_by_history(self, user_id, seen_ids, limit=10):
+        """
+        基于用户收藏/评分历史推荐相似电影
+        从用户喜欢的电影中提取类型，找同类型未看过的电影
+        """
+        # 取用户收藏/评分过的电影ID
+        liked_ids = list(
+            MovieLikes.objects.filter(user_id=user_id, status=1)
+            .values_list("movie_id", flat=True)[:10]
+        )
+        rated_ids = list(
+            MovieRatings.objects.filter(user_id=user_id, rating__gte=3)
+            .values_list("movie_id", flat=True)[:10]
+        )
+        history_ids = set(liked_ids + rated_ids)
+
+        if not history_ids:
+            return []
+
+        # 从这些电影的 genres 中提取类型
+        genre_set = set()
+        for mid in history_ids:
+            genres_str = CollectMovieDB.objects.filter(movie_id=mid).values_list("genres", flat=True).first()
+            if genres_str:
+                try:
+                    genre_list = ast.literal_eval(genres_str)
+                    genre_set.update(genre_list[:3])
+                except (ValueError, SyntaxError):
+                    pass
+
+        if not genre_set:
+            return []
+
+        # 找同类型未看过的电影
+        result_ids = set()
+        result = []
+        for genre in genre_set:
+            movies = CollectMovieDB.objects.filter(
+                genres__contains=genre
+            ).exclude(
+                movie_id__in=seen_ids | history_ids
+            ).order_by("-ratings_count")[:5]
+
+            for m in movies:
+                if m.movie_id not in result_ids:
+                    result_ids.add(m.movie_id)
+                    result.append(m)
+
+        random.shuffle(result)
+        return queryset_to_json(result[:limit])
+
+    def get_hot_movies(self, exclude_ids, limit=10):
+        """
+        热门电影补全（按评分人数排序）
+        """
+        movies = CollectMovieDB.objects.exclude(movie_id__in=exclude_ids)\
+            .order_by("-ratings_count")[:limit]
+        return queryset_to_json(movies)
+
+    def get_realtime_recommend(self, user_id, top_n=20):
+        """
+        实时推荐主入口 - 综合多维度推荐
+        返回: [movie_dict, ...]
+
+        策略：
+        1. 未登录用户 → 热门推荐（豆瓣高分）
+        2. 登录用户 → 类型推荐 + 历史推荐 + 热门补全
+        """
+        # 未登录用户：返回热门电影
+        if not user_id or user_id == 2:
+            return self.get_movie_douban_top(1, top_n)
+
+        # 已登录用户：综合推荐
+        seen_ids = self.get_user_seen_movie_ids(user_id)
+
+        # 1. 基于类型的推荐（占60%）
+        type_based = self.recommend_by_type(user_id, seen_ids, limit=int(top_n * 0.6))
+
+        # 2. 基于历史的推荐（占40%）
+        history_based = self.recommend_by_history(user_id, seen_ids, limit=int(top_n * 0.4))
+
+        # 3. 合并去重
+        seen_mids = set()
+        result = []
+        for item in type_based + history_based:
+            mid = item.get("movie_id")
+            if mid and mid not in seen_mids:
+                seen_mids.add(mid)
+                result.append(item)
+
+        # 4. 如果不足，用热门电影补全
+        if len(result) < top_n:
+            hot = self.get_hot_movies(exclude_ids=seen_mids, limit=top_n - len(result))
+            for item in hot:
+                mid = item.get("movie_id")
+                if mid and mid not in seen_mids:
+                    seen_mids.add(mid)
+                    result.append(item)
+
+        return result[:top_n]
+
+    def get_realtime_recommend_grouped(self, user_id, per_type=5):
+        """
+        按类型分组的实时推荐（用于推荐页面按类型展示）
+        返回: [{"tag": "动作", "movies": [...]}, ...]
+        """
+        if not user_id or user_id == 2:
+            # 未登录用户：返回热门分类
+            default_types = ["动作", "科幻", "爱情", "喜剧"]
+            result = []
+            for tag in default_types:
+                movies = CollectMovieDB.objects.filter(genres__contains=tag)\
+                    .order_by("-ratings_count")[:per_type]
+                result.append({"tag": tag, "movies": queryset_to_json(movies)})
+            return result
+
+        seen_ids = self.get_user_seen_movie_ids(user_id)
+        top_types = self.get_user_top_types(user_id, top_n=4)
+
+        result = []
+        for tag in top_types:
+            movies = CollectMovieDB.objects.filter(genres__contains=tag)\
+                .exclude(movie_id__in=seen_ids)\
+                .order_by("-ratings_count")[:per_type]
+            result.append({"tag": tag, "movies": queryset_to_json(movies)})
+
+        return result
+
+    def clear_user_recommend_cache(self, user_id):
+        """
+        清除用户推荐相关的Redis缓存
+        在用户产生收藏/评分/评论行为后调用
+        """
+        delete_readis("user_tag_cai" + "_" + str(user_id) + "_" + str(5))
+        # 同时清除其他可能的推荐缓存
+        delete_readis("realtime_recommend_" + str(user_id))
+        delete_readis("realtime_recommend_grouped_" + str(user_id))

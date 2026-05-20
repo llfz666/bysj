@@ -308,22 +308,9 @@ def recommend_page(request):
     # 2. 获取公共导航数据（包含用户信息、分类等）
     data = page_nav(request)
 
-    # 3. 获取 Spark 推荐结果
-    data["recommend_list"] = Movie.get_user_movie_5_cai(user_id)
-    # 处理推荐列表中的图片字段：将 images JSON 转为 movie_photo 供模板使用
-    for movie in data["recommend_list"]:
-        try:
-            images_json = json.loads(movie.get("images", "{}"))
-            movie["movie_photo"] = images_json.get("small", "")
-        except (json.JSONDecodeError, TypeError, AttributeError):
-            movie["movie_photo"] = ""
-        # 如果 movie_photo 为空，尝试从 movie_photo 字段直接获取
-        if not movie.get("movie_photo"):
-            movie["movie_photo"] = movie.get("movie_photo", "")
-        # 如果还是没有图片，使用占位图
-        if not movie.get("movie_photo"):
-            movie["movie_photo"] = ""
+    # 3. 获取按类型分组的实时推荐（服务端渲染）
+    data["recommend_grouped"] = Movie.get_realtime_recommend_grouped(user_id, per_type=5)
 
-
-    # 4. 返回新创建的推荐页面模板
+    # 4. 返回推荐页面模板
     return render(request, 'recommend.html', {"page": "recommend.html", "data": data})
+

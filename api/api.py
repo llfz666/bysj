@@ -96,6 +96,17 @@ class Api:
             return json.loads(data.decode('utf-8'))
 
     @staticmethod
+    def delete_readis(key):
+        """删除Redis缓存"""
+        try:
+            cache.delete(key)
+            return 1
+        except Exception as ex:
+            print("删除Redis缓存失败！key："+key)
+            print(ex.__str__())
+            return 0
+
+    @staticmethod
     def index_focus():
         index_focus_rs = IndexFocus.objects.filter(status=1).order_by("show_id").all()
         index_focus_rs_json = queryset_to_json(index_focus_rs)

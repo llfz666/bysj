@@ -1,8 +1,10 @@
+import json
 import requests
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.decorators.http import require_GET
 from api import movie_api
+from api.response import JsonResponse, JsonError
 
 data = dict()
 data["movie_tag"] = movie_api.Movie().get_movie_tag()
@@ -59,3 +61,29 @@ def img_proxy(request):
     resp["Cache-Control"] = "public, max-age=86400"  # 缓存 1 天，减少重复请求
     resp["Access-Control-Allow-Origin"] = "*"
     return resp
+
+
+@require_GET
+def realtime_recommend(request):
+    """
+    /api/realtime_recommend?top_n=20
+    实时推荐API - 返回混合推荐列表
+    """
+    user_id = request.session.get("user_id", 2)
+    top_n = int(request.GET.get("top_n", 20))
+    movie = movie_api.Movie()
+    data = movie.get_realtime_recommend(user_id, top_n)
+    return JsonResponse(data)
+
+
+@require_GET
+def realtime_recommend_grouped(request):
+    """
+    /api/realtime_recommend_grouped?per_type=5
+    按类型分组的实时推荐API - 返回按类型分组的推荐列表
+    """
+    user_id = request.session.get("user_id", 2)
+    per_type = int(request.GET.get("per_type", 5))
+    movie = movie_api.Movie()
+    data = movie.get_realtime_recommend_grouped(user_id, per_type)
+    return JsonResponse(data)

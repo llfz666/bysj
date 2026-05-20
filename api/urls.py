@@ -24,4 +24,6 @@ urlpatterns = [
     path('districts', districts.findByParent.as_view()),    # 获取地址信息关联
     path('email_vail', email_vail.send_reg_email.as_view()),    # 发送邮箱验证码
     path("img_proxy", views.img_proxy),
+    path("realtime_recommend", views.realtime_recommend),    # 实时推荐API
+    path("realtime_recommend_grouped", views.realtime_recommend_grouped),    # 按类型分组的实时推荐API
 ]

@@ -7,39 +7,85 @@
     {% include "include/nav.html" %}
     <div id="main" style="padding-top: 20px; min-height: 600px;">
         <div class="mikd">
+            <!-- ========== 板块一：基于您喜好的类型推荐（服务端渲染） ========== -->
             <div class="mi_btcon">
                 <div class="bt_tit mi_ne_kd">
-                    <h2><a href="javascript:void(0);">为您定制的个性化推荐 (基于Spark协同过滤)</a></h2>
+                    <h2><a href="javascript:void(0);">基于您喜好的类型推荐</a></h2>
                 </div>
-                <div class="bt_img mi_ne_kd leibox">
-                    <ul class="movie-card-list">
-                    {% for movie in data.recommend_list %}
-                        <li class="movie-card-item">
-                            <div class="movie-card">
-                                <a href="/movie.html?id={{ movie.movie_id }}" target="_blank" class="movie-card-link">
-                                    <div class="movie-card-poster">
-                                        <img class="movie-card-img" src="/api/img_proxy?url={{ movie.movie_photo }}" alt="{{ movie.movie_name }}" loading="lazy">
-                                    </div>
-                                    <div class="movie-card-info">
-                                        <h3 class="movie-card-title" title="{{ movie.movie_name }}">{{ movie.movie_name }}</h3>
-                                    </div>
-                                </a>
+                {% for group in data.recommend_grouped %}
+                <div class="mi_btcon" style="margin-top: 10px;">
+                    <div class="bt_tit mi_ne_kd">
+                        <h2><a href="javascript:void(0);">{{ group.tag }}</a><i class="fa"></i></h2>
+                        <a target="_blank" href="/search.html?type=genres&s={{ group.tag }}" class="moreb">更多<i class="el-icon-d-arrow-right"></i></a>
+                    </div>
+                    <div class="bt_img mi_ne_kd leibox">
+                        <ul class="movie-card-list">
+                        {% for movie in group.movies %}
+                            <li class="movie-card-item">
+                                <div class="movie-card">
+                                    <a href="/movie.html?id={{ movie.movie_id }}" target="_blank" class="movie-card-link">
+                                        <div class="movie-card-poster">
+                                            <img class="movie-card-img" src="/api/img_proxy?url={{ movie.movie_photo }}" alt="{{ movie.title }}" loading="lazy">
+                                        </div>
+                                        <div class="movie-card-info">
+                                            <h3 class="movie-card-title" title="{{ movie.title }}">{{ movie.title }}</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        {% empty %}
+                            <div style="text-align: center; padding: 50px; width: 100%;">
+                                <p>暂无推荐结果，快去浏览一些电影吧！</p>
                             </div>
-                        </li>
-                    {% empty %}
-                        <div style="text-align: center; padding: 50px; width: 100%;">
-                            <p>暂无个性化推荐结果。原因可能是：</p>
-                            <p>1. 您是新用户，系统还没有您的行为日志；</p>
-                            <p>2. Spark 计算任务尚未运行或数据未同步。</p>
-                        </div>
-                    {% endfor %}
-                    </ul>
+                        {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- ========== 板块二：猜您喜欢（AJAX动态加载） ========== -->
+            <div class="mi_btcon" style="margin-top: 30px;">
+                <div class="bt_tit mi_ne_kd">
+                    <h2><a href="javascript:void(0);">猜您喜欢</a><i class="fa"></i></h2>
+                    <a href="javascript:void(0);" onclick="load_realtime_recommend()" class="moreb">换一批<i class="el-icon-d-arrow-right"></i></a>
+                </div>
+                <div class="bt_img mi_ne_kd leibox" id="realtime_recommend_list">
+                    <div style="text-align: center; padding: 50px; width: 100%;">
+                        <p>加载中...</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        // 页面加载完成后，AJAX加载"猜您喜欢"
+        $(document).ready(function() {
+            load_realtime_recommend();
+        });
+
+        function load_realtime_recommend() {
+            $("#realtime_recommend_list").html('<div style="text-align: center; padding: 50px; width: 100%;"><p>加载中...</p></div>');
+            $.ajax({
+                url: "/api/realtime_recommend",
+                data: {top_n: 20},
+                type: "GET",
+                dataType: "json",
+                success: function(res) {
+                    if(res.code == 200 && res.data && res.data.length > 0) {
+                        movie_show(res.data, "realtime_recommend_list");
+                    } else {
+                        $("#realtime_recommend_list").html('<div style="text-align: center; padding: 50px; width: 100%;"><p>暂无推荐结果</p></div>');
+                    }
+                },
+                error: function() {
+                    $("#realtime_recommend_list").html('<div style="text-align: center; padding: 50px; width: 100%;"><p>加载失败，请稍后重试</p></div>');
+                }
+            });
+        }
+    </script>
+
     {% include "include/footer.html" %}
 </body>
 </html>
-
-

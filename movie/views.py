@@ -6,9 +6,11 @@ from movie.models import MovieRatings, MovieLikes, \
     MovieComments, CollectMovieDB
 from api import user_api, movie_api, api, delay_work
 from api.response import JsonError, JsonResponse
+from api.movie_api import delete_readis
 
 
 Movie = movie_api.Movie()
+
 
 emoution = Movie.emoution
 movie_search_api = Movie.movie_search
@@ -52,7 +54,11 @@ class MovieRating(APIView):
                 return JsonError("电影信息不存在，评分失败！")
             tag_thread_work("user_rating_tag", user_id=user_id, movie_id=movie_id, rating=rating, tag_sign="init")
             MovieRatings.objects.create(user_id=user_id, movie_id=movie_id, rating=rating)
+        # 清除推荐缓存
+        delete_readis("realtime_recommend_" + str(user_id))
+        delete_readis("realtime_recommend_grouped_" + str(user_id))
         return JsonResponse({"msg": "感谢您的评分！", "url": ""})
+
 
     def post(self, request, *args, **kwargs):
         return JsonError("不支持POST请求！")
@@ -88,7 +94,11 @@ class MovieLike(APIView):
                 msg = "收藏成功！"
             else:
                 return JsonError("电影信息不存在，收藏失败！")
+        # 清除推荐缓存
+        delete_readis("realtime_recommend_" + str(user_id))
+        delete_readis("realtime_recommend_grouped_" + str(user_id))
         return JsonResponse({"msg": msg, "url": ""})
+
 
     def post(self, request, *args, **kwargs):
         return JsonError("不支持POST请求！")
@@ -120,10 +130,14 @@ class MovieComment(APIView):
                                                          emotion=emotion, ip=ip)
         else:
             return JsonError("评论失败，标题和内容不能为空！")
+        # 清除推荐缓存
+        delete_readis("realtime_recommend_" + str(user_id))
+        delete_readis("realtime_recommend_grouped_" + str(user_id))
         now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         comment = {"userName": user_uname, "user": str(user_id), "comment_time": now, "title": title,
                    "content": content_text, "id": movie_comment.id}
         return JsonResponse({"msg": "评论成功！", "url": "", "comment": comment})
+
 
 
 # 删除电影评论
